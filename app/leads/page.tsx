@@ -85,9 +85,23 @@ export default async function Leads({
       .toLowerCase()
       .includes(query.toLowerCase())
 
-  const results = all.filter(
-    (t) => matchCountry(t) && matchIndustry(t) && matchQuery(t)
-  )
+  const results = all
+  .filter((t) => matchCountry(t) && matchIndustry(t) && matchQuery(t))
+  .sort((a, b) => {
+    const aOpen = a.deadline !== null && a.deadline >= today
+    const bOpen = b.deadline !== null && b.deadline >= today
+
+    // Open leads first.
+    if (aOpen !== bOpen) return aOpen ? -1 : 1
+
+    // Within open leads, soonest deadline first — those need attention now.
+    // Within expired ones, most recent first, since old ones matter least.
+    if (a.deadline === null) return 1
+    if (b.deadline === null) return -1
+    return aOpen
+      ? a.deadline.localeCompare(b.deadline)
+      : b.deadline.localeCompare(a.deadline)
+  })
 
   const countryFacets = tally(
     all.filter((t) => matchIndustry(t) && matchQuery(t)),
