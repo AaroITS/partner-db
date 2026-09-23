@@ -7,6 +7,7 @@ import { BLUE } from '@/lib/theme'
 const SECTIONS = [
   { href: '/', label: 'Partners' },
   { href: '/leads', label: 'Leads' },
+  { href: '/contracts', label: 'Contracts' },
 ]
 
 // Segmented control. Needs to be a client component because it reads the
@@ -16,7 +17,7 @@ export function SectionNav() {
 
   return (
     // The wrapper spans the header width and centres the pill; the pill
-    // itself stays only as wide as its two buttons.
+    // itself stays only as wide as its buttons.
     <div className="mt-5 flex justify-center">
       <nav className="inline-flex gap-1 rounded-full border border-white/60 bg-white/50 p-1 backdrop-blur-xl shadow-[inset_0_1px_0_rgba(255,255,255,0.85)]">
         {SECTIONS.map((s) => {
