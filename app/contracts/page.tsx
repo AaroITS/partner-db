@@ -78,7 +78,7 @@ export default async function Contracts({
     }
   }
 
-  // Disclosed values only — 26 contracts don't publish one, so the total is
+  // Disclosed values only — some contracts don't publish one, so the total is
   // a floor rather than a true sum, and the label says so.
   const disclosed = results.filter((c) => c.awarded_value !== null)
   const totalValue = disclosed.reduce((sum, c) => sum + (c.awarded_value ?? 0), 0)
@@ -204,7 +204,7 @@ export default async function Contracts({
                     )
                   })}
 
-                  <span className="ml-auto flex items-baseline gap-3">
+                  <span className="ml-auto flex flex-wrap items-center gap-x-3 gap-y-2">
                     <span className="text-[11px] font-semibold tabular-nums text-slate-500">
                       {formatDate(c.awarded_date)}
                     </span>
@@ -213,6 +213,20 @@ export default async function Contracts({
                         ? 'Not disclosed'
                         : formatMoney(c.awarded_value)}
                     </span>
+
+                    {/* Only 184 of 217 contracts have a link, so this is
+                        conditional — no dead buttons on the rest. */}
+                    {c.link && (
+                      <a
+                        href={c.link}
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{ color: BLUE_DEEP }}
+                        className="rounded-full border border-white/70 bg-white/80 px-3.5 py-1 text-[11px] font-semibold tracking-wide shadow-[inset_0_1px_0_rgba(255,255,255,0.95)] transition-colors hover:bg-white"
+                      >
+                        View contract
+                      </a>
+                    )}
                   </span>
                 </div>
               </li>

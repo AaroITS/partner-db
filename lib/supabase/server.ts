@@ -40,6 +40,7 @@ export type Contract = {
   awarded_date: string | null
   industry: string[] | null
   source_id: string | null
+  link: string | null
 }
 
 /* ---------- linking contracts to partners ----------
