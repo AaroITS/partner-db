@@ -1,5 +1,19 @@
 import { createClient, type Partner, type Tender } from '@/lib/supabase/server'
-import { BLUE_DEEP, GLASS, GLASS_NO_BORDER, GREEN, RED } from '@/lib/theme'
+import {
+  BODY,
+  BUTTON,
+  CARD,
+  GREEN,
+  HAIRLINE,
+  INK,
+  LABEL,
+  MUTED,
+  RED,
+  SCROLL_PANEL,
+  TAG_BORDER,
+  VIOLET,
+  VIOLET_TEXT,
+} from '@/lib/theme'
 import {
   ClearFilters,
   Facet,
@@ -8,6 +22,7 @@ import {
   tally,
   type Param,
 } from '@/components/filters'
+import { ArrowOut } from '@/components/arrow'
 import { Disclaimer } from '@/app/page'
 
 // Never cache: the green/red deadline state depends on today's date, so a
@@ -52,7 +67,7 @@ export default async function Leads({
 
   if (tenderRes.error) {
     return (
-      <p className="rounded-2xl border border-red-200 bg-red-50/80 p-4 text-sm text-red-800 backdrop-blur-xl">
+      <p className="rounded-[22px] bg-white p-5 text-sm text-red-800">
         Could not load leads: {tenderRes.error.message}
       </p>
     )
@@ -86,22 +101,22 @@ export default async function Leads({
       .includes(query.toLowerCase())
 
   const results = all
-  .filter((t) => matchCountry(t) && matchIndustry(t) && matchQuery(t))
-  .sort((a, b) => {
-    const aOpen = a.deadline !== null && a.deadline >= today
-    const bOpen = b.deadline !== null && b.deadline >= today
+    .filter((t) => matchCountry(t) && matchIndustry(t) && matchQuery(t))
+    .sort((a, b) => {
+      const aOpen = a.deadline !== null && a.deadline >= today
+      const bOpen = b.deadline !== null && b.deadline >= today
 
-    // Open leads first.
-    if (aOpen !== bOpen) return aOpen ? -1 : 1
+      // Open leads first.
+      if (aOpen !== bOpen) return aOpen ? -1 : 1
 
-    // Within open leads, soonest deadline first — those need attention now.
-    // Within expired ones, most recent first, since old ones matter least.
-    if (a.deadline === null) return 1
-    if (b.deadline === null) return -1
-    return aOpen
-      ? a.deadline.localeCompare(b.deadline)
-      : b.deadline.localeCompare(a.deadline)
-  })
+      // Within open leads, soonest deadline first — those need attention now.
+      // Within expired ones, most recent first, since old ones matter least.
+      if (a.deadline === null) return 1
+      if (b.deadline === null) return -1
+      return aOpen
+        ? a.deadline.localeCompare(b.deadline)
+        : b.deadline.localeCompare(a.deadline)
+    })
 
   const countryFacets = tally(
     all.filter((t) => matchIndustry(t) && matchQuery(t)),
@@ -122,9 +137,9 @@ export default async function Leads({
     Boolean(query) || pickedCountries.length + pickedIndustries.length > 0
 
   return (
-    <div className="grid gap-8 lg:grid-cols-[17rem_1fr] lg:items-start">
-      <aside className="lg:sticky lg:top-6 lg:max-h-[calc(100vh-3rem)] lg:overflow-y-auto">
-        <div className={`${GLASS} p-5`}>
+    <div className="grid gap-6 lg:grid-cols-[17rem_1fr] lg:items-start">
+      <aside className="lg:sticky lg:top-6">
+        <div className={`${CARD} ${SCROLL_PANEL} p-5`}>
           <SearchBox
             query={query}
             placeholder="Title or organisation…"
@@ -157,11 +172,11 @@ export default async function Leads({
       </aside>
 
       <section>
-        <div className={`${GLASS} mb-6 p-6`}>
-          <h2 className="text-sm font-bold tracking-tight text-slate-900">
+        <div className={`${CARD} mb-5 p-6`}>
+          <h2 style={{ color: INK }} className="text-[15px] font-bold tracking-tight">
             Information
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-slate-700">
+          <p style={{ color: BODY }} className="mt-3 text-sm leading-relaxed">
             This is a database of business opportunities in the JASMEX target
             markets, Canada and Türkiye. A green border means the deadline is
             still ahead; red means it has passed. Expand a lead to see possible
@@ -171,16 +186,16 @@ export default async function Leads({
           <Disclaimer />
         </div>
 
-        <p className="mb-4 text-[11px] font-semibold uppercase tracking-widest text-slate-500">
+        <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-[#F4F3FA]/75">
           {results.length} of {all.length} leads · {openCount} still open
         </p>
 
         {results.length === 0 ? (
-          <p className={`${GLASS} p-6 text-sm text-slate-600`}>
+          <p style={{ color: BODY }} className={`${CARD} p-6 text-sm`}>
             No leads match every filter. Remove one to widen the search.
           </p>
         ) : (
-          <ul className="space-y-4">
+          <ul className="space-y-3.5">
             {results.map((t) => {
               const isOpen = t.deadline !== null && t.deadline >= today
               const edge = isOpen ? GREEN : RED
@@ -195,13 +210,16 @@ export default async function Leads({
               return (
                 <li
                   key={t.id}
-                  style={{ border: `2px solid ${edge}` }}
-                  className={`${GLASS_NO_BORDER} p-6`}
+                  style={{ border: `3px solid ${edge}` }}
+                  className={`${CARD} p-6`}
                 >
                   {/* Flag sits in the card's top-right corner. The title
                       reserves space for it so long titles don't run underneath. */}
                   <div className="flex items-start justify-between gap-4">
-                    <h2 className="max-w-2xl text-base font-bold leading-snug tracking-tight text-slate-900">
+                    <h2
+                      style={{ color: INK }}
+                      className="max-w-2xl text-[17px] font-bold leading-snug tracking-[-0.01em]"
+                    >
                       {t.title}
                     </h2>
                     {t.country && (
@@ -216,17 +234,20 @@ export default async function Leads({
                   </div>
 
                   {t.organisation && (
-                    <p className="mt-2 text-sm text-slate-600">
+                    <p style={{ color: MUTED }} className="mt-2 text-sm">
                       {t.organisation}
                     </p>
                   )}
 
                   {/* Deadline and action, pushed right. The border colour
                       already says whether it's open, so no label is needed. */}
-                  <div className="mt-5 flex flex-wrap items-center justify-end gap-x-3 gap-y-2 border-t border-white/70 pt-4">
+                  <div
+                    style={{ borderColor: HAIRLINE }}
+                    className="mt-5 flex flex-wrap items-center justify-end gap-x-3 gap-y-2 border-t pt-4"
+                  >
                     <span
                       style={{ backgroundColor: edge }}
-                      className="rounded-full px-3 py-1 text-[11px] font-semibold tracking-wide text-white shadow-[inset_0_1px_0_rgba(255,255,255,0.28)]"
+                      className="rounded-full px-3 py-1 text-[11px] font-semibold tracking-wide text-white"
                     >
                       {formatDate(t.deadline)}
                     </span>
@@ -236,39 +257,53 @@ export default async function Leads({
                         href={t.link}
                         target="_blank"
                         rel="noreferrer"
-                        style={{ color: BLUE_DEEP }}
-                        className="rounded-full border border-white/70 bg-white/80 px-3.5 py-1 text-[11px] font-semibold tracking-wide shadow-[inset_0_1px_0_rgba(255,255,255,0.95)] transition-colors hover:bg-white"
+                        style={{ borderColor: VIOLET, color: VIOLET_TEXT }}
+                        className={BUTTON}
                       >
                         View opportunity
+                        <ArrowOut />
                       </a>
                     )}
                   </div>
 
                   {/* Plain <details> — no JavaScript needed for the accordion. */}
-                  <details className="group mt-4 overflow-hidden rounded-xl border border-[#9ec1f5]">
-                    <summary className="cursor-pointer list-none bg-white/60 px-4 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-white/85 group-open:border-b group-open:border-[#9ec1f5]">
+                  <details
+                    style={{ borderColor: TAG_BORDER }}
+                    className="group mt-4 overflow-hidden rounded-xl border"
+                  >
+                    <summary
+                      style={{ color: BODY, borderColor: TAG_BORDER }}
+                      className="cursor-pointer list-none px-4 py-2.5 text-sm font-semibold transition-colors hover:bg-[#F3F0FD] group-open:border-b"
+                    >
                       <span className="inline-block w-4 transition-transform group-open:rotate-90">
                         ›
                       </span>
                       Partners you could talk to
-                      <span className="ml-1 font-normal text-slate-400">
+                      <span style={{ color: MUTED }} className="ml-1 font-normal">
                         ({suggested.length})
                       </span>
                     </summary>
 
                     {suggested.length === 0 ? (
-                      <p className="px-4 pt-3 text-sm text-slate-500">
+                      <p
+                        style={{ color: LABEL }}
+                        className="bg-[#FAFAFD] px-4 py-3 text-sm"
+                      >
                         No partners in {t.country ?? 'this country'} currently
                         list any of these industries.
                       </p>
                     ) : (
-                      <ul className="divide-y divide-[#c9dcf7] bg-white/40">
+                      <ul
+                        style={{ borderColor: HAIRLINE }}
+                        className="divide-y bg-[#FAFAFD]"
+                      >
                         {suggested.map((p) => (
-                           <li key={p.id} className="px-4 py-3">
-                            
-      
+                          <li key={p.id} className="px-4 py-3">
                             <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
-                              <span className="text-sm font-semibold text-slate-900">
+                              <span
+                                style={{ color: INK }}
+                                className="text-sm font-semibold"
+                              >
                                 {p.name}
                               </span>
                               {p.website && (
@@ -276,7 +311,7 @@ export default async function Leads({
                                   href={p.website}
                                   target="_blank"
                                   rel="noreferrer"
-                                  style={{ color: BLUE_DEEP }}
+                                  style={{ color: VIOLET_TEXT }}
                                   className="text-[11px] font-semibold underline underline-offset-4"
                                 >
                                   Website
@@ -284,7 +319,10 @@ export default async function Leads({
                               )}
                             </div>
                             {p.about && (
-                              <p className="mt-1.5 text-sm leading-relaxed text-slate-600">
+                              <p
+                                style={{ color: BODY }}
+                                className="mt-1.5 text-sm leading-relaxed"
+                              >
                                 {p.about}
                               </p>
                             )}

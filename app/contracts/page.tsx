@@ -4,7 +4,21 @@ import {
   type Contract,
   type Partner,
 } from '@/lib/supabase/server'
-import { BLUE, BLUE_DEEP, GLASS, GLASS_HOVER } from '@/lib/theme'
+import {
+  BODY,
+  BUTTON,
+  CARD,
+  CARD_HOVER,
+  HAIRLINE,
+  INK,
+  LABEL,
+  MUTED,
+  TAG,
+  SCROLL_PANEL,
+  TAG_BORDER,
+  VIOLET,
+  VIOLET_TEXT,
+} from '@/lib/theme'
 import {
   ClearFilters,
   Facet,
@@ -13,6 +27,7 @@ import {
   tally,
   type Param,
 } from '@/components/filters'
+import { ArrowOut } from '@/components/arrow'
 import { Disclaimer } from '@/app/page'
 
 export const revalidate = 0
@@ -44,7 +59,7 @@ export default async function Contracts({
 
   if (contractRes.error) {
     return (
-      <p className="rounded-2xl border border-red-200 bg-red-50/80 p-4 text-sm text-red-800 backdrop-blur-xl">
+      <p className="rounded-[22px] bg-white p-5 text-sm text-red-800">
         Could not load contracts: {contractRes.error.message}
       </p>
     )
@@ -105,9 +120,9 @@ export default async function Contracts({
     Boolean(query) || pickedBuyers.length + pickedIndustries.length > 0
 
   return (
-    <div className="grid gap-8 lg:grid-cols-[17rem_1fr] lg:items-start">
-      <aside className="lg:sticky lg:top-6 lg:max-h-[calc(100vh-3rem)] lg:overflow-y-auto">
-        <div className={`${GLASS} p-5`}>
+    <div className="grid gap-6 lg:grid-cols-[17rem_1fr] lg:items-start">
+      <aside className="lg:sticky lg:top-6">
+        <div className={`${CARD} ${SCROLL_PANEL} p-5`}>
           <SearchBox
             query={query}
             placeholder="Title or supplier…"
@@ -140,17 +155,17 @@ export default async function Contracts({
       </aside>
 
       <section>
-        <div className={`${GLASS} mb-6 p-6`}>
-          <h2 className="text-sm font-bold tracking-tight text-slate-900">
+        <div className={`${CARD} mb-5 p-6`}>
+          <h2 style={{ color: INK }} className="text-[15px] font-bold tracking-tight">
             Information
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-slate-700">
+          <p style={{ color: BODY }} className="mt-3 text-sm leading-relaxed">
             Smart mobility contracts already awarded by public buyers in
             Ontario, Quebec and the Canadian federal government. Use this to see
             which companies win work in the Canadian market, and in which
             fields.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-slate-700">
+          <p style={{ color: BODY }} className="mt-3 text-sm leading-relaxed">
             Smart mobility has no strict definition, so which contracts are
             included and how they are tagged reflects our judgement rather than
             an agreed standard. Data quality varies between buyers, since each
@@ -161,21 +176,24 @@ export default async function Contracts({
           <Disclaimer />
         </div>
 
-        <p className="mb-4 text-[11px] font-semibold uppercase tracking-widest text-slate-500">
+        <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-[#F4F3FA]/75">
           {results.length} of {all.length} contracts · {formatMoney(totalValue)}{' '}
           disclosed
         </p>
 
         {results.length === 0 ? (
-          <p className={`${GLASS} p-6 text-sm text-slate-600`}>
+          <p style={{ color: BODY }} className={`${CARD} p-6 text-sm`}>
             No contracts match every filter. Remove one to widen the search.
           </p>
         ) : (
-          <ul className="space-y-4">
+          <ul className="space-y-3.5">
             {results.map((c) => (
-              <li key={c.id} className={`${GLASS} ${GLASS_HOVER} p-6`}>
+              <li key={c.id} className={`${CARD} ${CARD_HOVER} p-6`}>
                 <div className="flex items-start justify-between gap-4">
-                  <h2 className="max-w-2xl text-base font-bold leading-snug tracking-tight text-slate-900">
+                  <h2
+                    style={{ color: INK }}
+                    className="max-w-2xl text-[17px] font-bold leading-snug tracking-[-0.01em]"
+                  >
                     {c.title}
                   </h2>
                   <span
@@ -197,41 +215,42 @@ export default async function Contracts({
                         href={site}
                         target="_blank"
                         rel="noreferrer"
-                        style={{ color: BLUE_DEEP }}
+                        style={{ color: VIOLET_TEXT }}
                         className="mt-2 inline-block text-sm font-semibold underline underline-offset-4 transition-opacity hover:opacity-70"
                       >
                         {c.supplier}
                       </a>
                     ) : (
-                      <p
-                        style={{ color: BLUE_DEEP }}
-                        className="mt-2 text-sm font-semibold"
-                      >
+                      <p style={{ color: INK }} className="mt-2 text-sm font-semibold">
                         {c.supplier}
                       </p>
                     )
                   })()}
 
-                <p className="mt-1 text-sm text-slate-600">
+                <p style={{ color: MUTED }} className="mt-1 text-sm">
                   {c.buyer}
-                  {c.source_id && (
-                    <span className="text-slate-400"> · ref {c.source_id}</span>
-                  )}
+                  {c.source_id && <span> · ref {c.source_id}</span>}
                 </p>
 
-                <div className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-2 border-t border-white/70 pt-4">
+                <div
+                  style={{ borderColor: HAIRLINE }}
+                  className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-2 border-t pt-4"
+                >
                   {(c.industry ?? []).map((tag) => {
                     const isPicked = pickedIndustries.includes(tag)
                     return (
                       <span
                         key={tag}
-                        style={{
-                          backgroundColor: isPicked ? BLUE_DEEP : BLUE,
-                          boxShadow: isPicked
-                            ? '0 0 0 2px rgba(255,255,255,0.85), inset 0 1px 0 rgba(255,255,255,0.30)'
-                            : 'inset 0 1px 0 rgba(255,255,255,0.28)',
-                        }}
-                        className="rounded-full px-2.5 py-1 text-[11px] font-semibold tracking-wide text-white"
+                        style={
+                          isPicked
+                            ? {
+                                backgroundColor: VIOLET,
+                                borderColor: VIOLET,
+                                color: '#FFFFFF',
+                              }
+                            : { borderColor: TAG_BORDER, color: BODY }
+                        }
+                        className={TAG}
                       >
                         {tag}
                       </span>
@@ -239,26 +258,33 @@ export default async function Contracts({
                   })}
 
                   <span className="ml-auto flex flex-wrap items-center gap-x-3 gap-y-2">
-                    <span className="text-[11px] font-semibold tabular-nums text-slate-500">
+                    <span
+                      style={{ color: MUTED }}
+                      className="text-[11px] font-semibold tabular-nums"
+                    >
                       {formatDate(c.awarded_date)}
                     </span>
-                    <span className="rounded-full border border-white/70 bg-white/80 px-3 py-1 text-[11px] font-semibold tabular-nums text-slate-700 shadow-[inset_0_1px_0_rgba(255,255,255,0.95)]">
+                    <span
+                      style={{ borderColor: TAG_BORDER, color: BODY }}
+                      className="rounded-full border px-3 py-1 text-[11px] font-semibold tabular-nums"
+                    >
                       {c.awarded_value === null
                         ? 'Not disclosed'
                         : formatMoney(c.awarded_value)}
                     </span>
 
-                    {/* Only 184 of 217 contracts have a link, so this is
-                        conditional — no dead buttons on the rest. */}
+                    {/* Not every contract has a link, so this is conditional —
+                        no dead buttons on the rest. */}
                     {c.link && (
                       <a
                         href={c.link}
                         target="_blank"
                         rel="noreferrer"
-                        style={{ color: BLUE_DEEP }}
-                        className="rounded-full border border-white/70 bg-white/80 px-3.5 py-1 text-[11px] font-semibold tracking-wide shadow-[inset_0_1px_0_rgba(255,255,255,0.95)] transition-colors hover:bg-white"
+                        style={{ borderColor: VIOLET, color: VIOLET_TEXT }}
+                        className={BUTTON}
                       >
                         View contract
+                        <ArrowOut />
                       </a>
                     )}
                   </span>

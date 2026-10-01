@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { BLUE, BLUE_DEEP, BLUE_TINT } from '@/lib/theme'
+import { LABEL, MUTED, BODY, VIOLET, VIOLET_TEXT } from '@/lib/theme'
 
 // A filter arrives as a string when one value is picked, an array when
 // several are. `list()` normalises both.
@@ -73,13 +73,20 @@ export function Facet({
   if (values.length < 2 && picked.length === 0) return null
 
   return (
-    <div className="mb-7">
-      <h3 className="text-[11px] font-semibold uppercase tracking-widest text-slate-500">
+    <div className="mb-6">
+      <h3
+        style={{ color: LABEL }}
+        className="text-[11px] font-semibold uppercase tracking-[0.1em]"
+      >
         {title}
       </h3>
-      {hint && <p className="mt-1 text-xs text-slate-400">{hint}</p>}
+      {hint && (
+        <p style={{ color: MUTED }} className="mt-1 text-xs">
+          {hint}
+        </p>
+      )}
 
-      <ul className="mt-3 space-y-0.5">
+      <ul className="mt-2.5 space-y-0.5">
         {values.map(([value, count]) => {
           const isPicked = picked.includes(value)
           return (
@@ -88,35 +95,18 @@ export function Facet({
                 href={toggleHref(params, param, value, basePath)}
                 style={
                   isPicked
-                    ? {
-                        backgroundColor: BLUE,
-                        boxShadow: 'inset 0 1px 0 rgba(255,255,255,0.28)',
-                      }
-                    : undefined
+                    ? { backgroundColor: VIOLET, color: '#FFFFFF' }
+                    : { color: BODY }
                 }
-                className={`group flex items-baseline gap-2 rounded-xl px-2 py-1.5 text-sm transition-colors ${
-                  isPicked
-                    ? 'font-semibold text-white'
-                    : 'text-slate-700 hover:bg-white/70'
+                className={`flex items-baseline gap-2 rounded-[10px] px-2.5 py-1.5 text-sm transition-colors ${
+                  isPicked ? 'font-semibold' : 'hover:bg-[#F3F0FD]'
                 }`}
               >
-                <span
-                  aria-hidden
-                  style={
-                    isPicked ? { color: BLUE_DEEP } : { backgroundColor: BLUE_TINT }
-                  }
-                  className={`flex h-3.5 w-3.5 shrink-0 items-center justify-center rounded-[5px] border text-[9px] font-bold leading-none ${
-                    isPicked
-                      ? 'border-white bg-white'
-                      : 'border-slate-300/80 group-hover:border-slate-400'
-                  }`}
-                >
-                  {isPicked ? '✓' : ''}
-                </span>
                 <span className="flex-1">{value}</span>
                 <span
+                  style={isPicked ? undefined : { color: MUTED }}
                   className={`text-[11px] tabular-nums ${
-                    isPicked ? 'text-white/70' : 'text-slate-400'
+                    isPicked ? 'text-white/70' : ''
                   }`}
                 >
                   {count}
@@ -141,10 +131,11 @@ export function SearchBox({
   placeholder: string
 }) {
   return (
-    <form method="get" className="mb-7">
+    <form method="get" className="mb-6">
       <label
         htmlFor="q"
-        className="mb-2 block text-[11px] font-semibold uppercase tracking-widest text-slate-500"
+        style={{ color: LABEL }}
+        className="mb-2 block text-[11px] font-semibold uppercase tracking-[0.1em]"
       >
         Search
       </label>
@@ -154,8 +145,8 @@ export function SearchBox({
         type="search"
         defaultValue={query}
         placeholder={placeholder}
-        style={{ ['--tw-ring-color' as string]: 'rgba(11,92,255,0.25)' }}
-        className="w-full rounded-xl border border-white/70 bg-white/70 px-3 py-2 text-sm text-slate-900 outline-none backdrop-blur focus:border-[#0B5CFF]/50 focus:bg-white/95 focus:ring-2"
+        style={{ ['--tw-ring-color' as string]: 'rgba(74,51,168,0.20)' }}
+        className="w-full rounded-[10px] border border-[#D6D3E4] bg-white px-3 py-2 text-sm text-[#15131F] outline-none focus:border-[#4A33A8] focus:ring-2"
       />
       {hidden.map((h) =>
         h.values.map((v) => (
@@ -177,8 +168,8 @@ export function ClearFilters({
   return (
     <Link
       href={basePath}
-      style={{ color: BLUE }}
-      className="text-[11px] font-semibold uppercase tracking-widest underline underline-offset-4"
+      style={{ color: VIOLET_TEXT }}
+      className="text-[11px] font-semibold uppercase tracking-[0.1em] underline underline-offset-4"
     >
       Clear all filters
     </Link>

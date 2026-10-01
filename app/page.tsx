@@ -4,7 +4,21 @@ import {
   type Contract,
   type Partner,
 } from '@/lib/supabase/server'
-import { BLUE_DEEP, GLASS, GLASS_HOVER, BLUE } from '@/lib/theme'
+import {
+  BODY,
+  BUTTON,
+  CARD,
+  CARD_HOVER,
+  HAIRLINE,
+  INK,
+  LABEL,
+  MUTED,
+  TAG,
+  SCROLL_PANEL,
+  TAG_BORDER,
+  VIOLET,
+  VIOLET_TEXT,
+} from '@/lib/theme'
 import {
   ClearFilters,
   Facet,
@@ -13,6 +27,7 @@ import {
   tally,
   type Param,
 } from '@/components/filters'
+import { ArrowOut } from '@/components/arrow'
 
 export const revalidate = 0
 
@@ -44,7 +59,7 @@ export default async function Home({
 
   if (partnerRes.error) {
     return (
-      <p className="rounded-2xl border border-red-200 bg-red-50/80 p-4 text-sm text-red-800 backdrop-blur-xl">
+      <p className="rounded-[22px] bg-white p-5 text-sm text-red-800">
         Could not load partners: {partnerRes.error.message}
       </p>
     )
@@ -119,11 +134,11 @@ export default async function Home({
     pickedCountries.length + pickedOrgTypes.length + pickedIndustries.length > 0
 
   return (
-    <div className="grid gap-8 lg:grid-cols-[17rem_1fr] lg:items-start">
+    <div className="grid gap-6 lg:grid-cols-[17rem_1fr] lg:items-start">
       {/* Filters — stick in place while the right column scrolls, and scroll
           on their own once the list is taller than the screen. */}
-      <aside className="lg:sticky lg:top-6 lg:max-h-[calc(100vh-3rem)] lg:overflow-y-auto">
-        <div className={`${GLASS} p-5`}>
+      <aside className="lg:sticky lg:top-6">
+        <div className={`${CARD} ${SCROLL_PANEL} p-5`}>
           <SearchBox
             query={query}
             placeholder="Name, description, projects…"
@@ -166,16 +181,15 @@ export default async function Home({
       </aside>
 
       <section>
-        {/* Information — same glass panel as the cards below it. */}
-        <div className={`${GLASS} mb-6 p-6`}>
-          <h2 className="text-sm font-bold tracking-tight text-slate-900">
+        <div className={`${CARD} mb-5 p-6`}>
+          <h2 style={{ color: INK }} className="text-[15px] font-bold tracking-tight">
             Information
           </h2>
-          <p className="mt-3 text-sm leading-relaxed text-slate-700">
+          <p style={{ color: BODY }} className="mt-3 text-sm leading-relaxed">
             This database can be used to locate business partners in JASMEX
             project&apos;s target markets: Canada &amp; Türkiye.
           </p>
-          <p className="mt-3 text-sm leading-relaxed text-slate-700">
+          <p style={{ color: BODY }} className="mt-3 text-sm leading-relaxed">
             JASMEX is carried out in collaboration by ITS Finland, ITL Estonia,
             and Linköping Science Park, aimed at supporting the export of SMEs
             in particular to the smart transport and smart city markets in
@@ -186,73 +200,92 @@ export default async function Home({
           <Disclaimer />
         </div>
 
-        <p className="mb-4 text-[11px] font-semibold uppercase tracking-widest text-slate-500">
+        <p className="mb-3 text-[11px] font-semibold uppercase tracking-[0.1em] text-[#F4F3FA]/75">
           {results.length} of {all.length} partners
         </p>
 
         {results.length === 0 ? (
-          <p className={`${GLASS} p-6 text-sm text-slate-600`}>
+          <p style={{ color: BODY }} className={`${CARD} p-6 text-sm`}>
             No partners match every filter. Remove one to widen the search.
           </p>
         ) : (
-          <ul className="space-y-4">
+          <ul className="space-y-3.5">
             {results.map((p) => {
               const won = byCompany.get(companyKey(p.name)) ?? []
 
               return (
-                <li key={p.id} className={`${GLASS} ${GLASS_HOVER} p-6`}>
+                <li key={p.id} className={`${CARD} ${CARD_HOVER} p-6`}>
                   <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                    <h2 className="text-base font-bold tracking-tight text-slate-900">
+                    <h2
+                      style={{ color: INK }}
+                      className="text-[17px] font-bold tracking-[-0.01em]"
+                    >
                       {p.name}
                     </h2>
                     {p.country && (
-                      <span className="text-sm text-slate-500">{p.country}</span>
+                      <span style={{ color: MUTED }} className="text-sm">
+                        {p.country}
+                      </span>
                     )}
                   </div>
 
                   {p.org_type && (
                     <p
-                      style={{ color: BLUE_DEEP }}
-                      className="mt-1.5 text-[11px] font-semibold uppercase tracking-widest"
+                      style={{ color: LABEL }}
+                      className="mt-1.5 text-[11px] font-semibold uppercase tracking-[0.1em]"
                     >
                       {p.org_type}
                     </p>
                   )}
 
                   {p.about && (
-                    <p className="mt-3 max-w-2xl text-sm leading-relaxed text-slate-700">
+                    <p
+                      style={{ color: BODY }}
+                      className="mt-3 max-w-2xl text-sm leading-relaxed"
+                    >
                       {p.about}
                     </p>
                   )}
 
                   {p.projects && (
-                    <div className="mt-4 max-w-2xl rounded-xl border border-white/60 bg-white/45 px-4 py-3">
-                      <h3 className="text-[11px] font-semibold uppercase tracking-widest text-slate-400">
+                    <div
+                      style={{ borderColor: HAIRLINE }}
+                      className="mt-4 max-w-2xl rounded-xl border bg-[#FAFAFD] px-4 py-3"
+                    >
+                      <h3
+                        style={{ color: LABEL }}
+                        className="text-[11px] font-semibold uppercase tracking-[0.1em]"
+                      >
                         Projects
                       </h3>
-                      <p className="mt-1 text-sm leading-relaxed text-slate-600">
+                      <p style={{ color: BODY }} className="mt-1 text-sm leading-relaxed">
                         {p.projects}
                       </p>
                     </div>
                   )}
 
                   {(p.industry?.length || p.website) && (
-                    <div className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-2 border-t border-white/70 pt-4">
-                      {/* A currently-filtered industry goes darker with a white
-                          halo, so you can see which pills put this partner in
-                          the results. */}
+                    <div
+                      style={{ borderColor: HAIRLINE }}
+                      className="mt-5 flex flex-wrap items-center gap-x-2 gap-y-2 border-t pt-4"
+                    >
+                      {/* Outlined tags. A currently-filtered one fills violet
+                          so you can see which put this partner in the results. */}
                       {(p.industry ?? []).map((tag) => {
                         const isPicked = pickedIndustries.includes(tag)
                         return (
                           <span
                             key={tag}
-                            style={{
-                              backgroundColor: isPicked ? BLUE_DEEP : BLUE,
-                              boxShadow: isPicked
-                                ? '0 0 0 2px rgba(255,255,255,0.85), inset 0 1px 0 rgba(255,255,255,0.30)'
-                                : 'inset 0 1px 0 rgba(255,255,255,0.28)',
-                            }}
-                            className="rounded-full px-2.5 py-1 text-[11px] font-semibold tracking-wide text-white"
+                            style={
+                              isPicked
+                                ? {
+                                    backgroundColor: VIOLET,
+                                    borderColor: VIOLET,
+                                    color: '#FFFFFF',
+                                  }
+                                : { borderColor: TAG_BORDER, color: BODY }
+                            }
+                            className={TAG}
                           >
                             {tag}
                           </span>
@@ -264,10 +297,11 @@ export default async function Home({
                           href={p.website}
                           target="_blank"
                           rel="noreferrer"
-                          style={{ color: BLUE_DEEP }}
-                          className="ml-auto rounded-full border border-white/70 bg-white/80 px-3.5 py-1 text-[11px] font-semibold tracking-wide shadow-[inset_0_1px_0_rgba(255,255,255,0.95)] transition-colors hover:bg-white"
+                          style={{ borderColor: VIOLET, color: VIOLET_TEXT }}
+                          className={`ml-auto ${BUTTON}`}
                         >
                           Website
+                        <ArrowOut />
                         </a>
                       )}
                     </div>
@@ -276,50 +310,60 @@ export default async function Home({
                   {/* Only shown when this partner appears in the contracts
                       data. Plain <details> — no JavaScript needed. */}
                   {won.length > 0 && (
-                    /* One bordered panel wrapping summary and rows, so opening
-                       reads as the panel growing rather than new cards
-                       appearing. The summary keeps its bottom corners rounded
-                       only while closed. */
-                    <details className="group mt-4 overflow-hidden rounded-xl border border-[#9ec1f5]">
-                      <summary className="cursor-pointer list-none bg-white/60 px-4 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-white/85 group-open:border-b group-open:border-[#9ec1f5]">
+                    <details
+                      style={{ borderColor: TAG_BORDER }}
+                      className="group mt-4 overflow-hidden rounded-xl border"
+                    >
+                      <summary
+                        style={{ color: BODY, borderColor: TAG_BORDER }}
+                        className="cursor-pointer list-none px-4 py-2.5 text-sm font-semibold transition-colors hover:bg-[#F3F0FD] group-open:border-b"
+                      >
                         <span className="inline-block w-4 transition-transform group-open:rotate-90">
                           ›
                         </span>
                         See contracts won in Canada
-                        <span className="ml-1 font-normal text-slate-400">
+                        <span style={{ color: MUTED }} className="ml-1 font-normal">
                           ({won.length})
                         </span>
                       </summary>
 
-                      <ul className="divide-y divide-[#c9dcf7] bg-white/40">
+                      <ul style={{ borderColor: HAIRLINE }} className="divide-y bg-[#FAFAFD]">
                         {won.map((c) => (
                           <li key={c.id} className="px-4 py-3">
-                            {/* The title is the link where the buyer
-                                published one. 184 of 217 contracts have a
-                                link; the rest stay as plain text. */}
+                            {/* The title is the link where the buyer published
+                                one; the rest stay as plain text. */}
                             {c.link ? (
                               <a
                                 href={c.link}
                                 target="_blank"
                                 rel="noreferrer"
-                                style={{ color: BLUE_DEEP }}
+                                style={{ color: VIOLET_TEXT }}
                                 className="text-sm font-semibold leading-snug underline underline-offset-4 transition-opacity hover:opacity-70"
                               >
                                 {c.title}
                               </a>
                             ) : (
-                              <p className="text-sm font-semibold leading-snug text-slate-900">
+                              <p
+                                style={{ color: INK }}
+                                className="text-sm font-semibold leading-snug"
+                              >
                                 {c.title}
                               </p>
                             )}
-                            <p className="mt-1 flex flex-wrap items-baseline gap-x-2 text-[11px] text-slate-500">
+                            <p
+                              style={{ color: MUTED }}
+                              className="mt-1 flex flex-wrap items-baseline gap-x-2 text-[11px]"
+                            >
                               <span>{c.buyer}</span>
-                              <span className="text-slate-300">·</span>
+                              <span>·</span>
                               <span className="tabular-nums">
                                 {formatDate(c.awarded_date)}
                               </span>
-                              <span className="text-slate-300">·</span>
-                              <span className="font-semibold tabular-nums text-slate-600">
+                              <span>·</span>
+                              <span
+                                style={{ color: BODY }}
+                                className="font-semibold tabular-nums"
+                              >
                                 {c.awarded_value === null
                                   ? 'Not disclosed'
                                   : formatMoney(c.awarded_value)}
@@ -357,14 +401,20 @@ function formatMoney(n: number) {
 // content above it, but still one click away.
 export function Disclaimer() {
   return (
-    <details className="group mt-4 border-t border-white/70 pt-3">
-      <summary className="cursor-pointer list-none text-xs font-semibold text-slate-500 transition-colors hover:text-slate-700">
+    <details
+      style={{ borderColor: HAIRLINE }}
+      className="group mt-4 border-t pt-3"
+    >
+      <summary
+        style={{ color: LABEL }}
+        className="cursor-pointer list-none text-xs font-semibold transition-colors hover:text-[#15131F]"
+      >
         <span className="inline-block w-3 transition-transform group-open:rotate-90">
           ›
         </span>
         Disclaimer
       </summary>
-      <p className="mt-2 pl-3 text-xs leading-relaxed text-slate-500">
+      <p style={{ color: LABEL }} className="mt-2 pl-3 text-xs leading-relaxed">
         All information on this site is collected from publicly available
         sources and provided for general guidance only. ITS Finland and the
         JASMEX project partners accept no liability for its accuracy or for any

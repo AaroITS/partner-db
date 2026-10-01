@@ -1,28 +1,47 @@
-/* Shared visual language for both the partners and tenders pages.
-   Change a value here and both pages follow. */
+/* Shared visual language for all three pages.
+   Change a value here and every page follows. */
 
-export const BLUE = '#0B5CFF' // cold electric blue
-export const BLUE_DEEP = '#0740B8' // pressed / selected state
-export const BLUE_TINT = 'rgba(11,92,255,0.10)' // faint wash for unticked boxes
+/* Accent — pulled from the page background so the palette stays one family.
+   Black was tried for buttons and tags and read as a different system
+   intruding; everything on the page is violet, blue or grey. */
+export const VIOLET = '#4A33A8' // fills, active states
+export const VIOLET_TEXT = '#3A2E8C' // violet text on white, meets contrast
 
-// Traffic-light colours for tender deadlines.
-export const GREEN = '#16A34A'
-export const RED = '#DC2626'
+/* Card text. The background is dark, the cards are light, so these are the
+   colours used *inside* cards only. */
+export const INK = '#15131F' // headings
+export const BODY = '#3A3850' // paragraphs
+export const MUTED = '#8A8798' // country, dates, counts
+export const LABEL = '#6B6880' // small uppercase labels
+export const HAIRLINE = '#ECEAF2' // dividers inside a card
+export const TAG_BORDER = '#C5C1D8' // outlined industry tags
 
-// Frosted glass: a translucent fill plus a blur of what sits behind it.
-// The inset white line along the top edge is the highlight that makes the
-// panel read as a physical pane rather than a flat transparent rectangle.
-export const GLASS =
-  'rounded-3xl border border-white/60 bg-white/58 backdrop-blur-xl ' +
-  'shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_1px_2px_rgba(11,92,255,0.05),0_12px_32px_-14px_rgba(11,92,255,0.30)]'
+/* Traffic-light colours for tender deadlines. Darkened from the originals so
+   white text on them still passes contrast. */
+export const GREEN = '#15803D'
+export const RED = '#C02626'
 
-export const GLASS_HOVER =
-  'transition-[transform,box-shadow,background-color] duration-300 ' +
-  'hover:-translate-y-0.5 hover:bg-white/72 ' +
-  'hover:shadow-[inset_0_1px_0_rgba(255,255,255,0.95),0_1px_2px_rgba(11,92,255,0.06),0_20px_44px_-16px_rgba(11,92,255,0.38)]'
+/* Cards are fully opaque white. Translucency was tried and composites with
+   the violet background, which turned every card grey. */
+export const CARD =
+  'rounded-[22px] bg-white ' +
+  'shadow-[0_1px_2px_rgba(20,14,60,0.10),0_14px_34px_-14px_rgba(20,14,60,0.40)]'
 
-// Same glass, minus the border — the tender card supplies its own coloured
-// border so the deadline status is visible at a glance.
-export const GLASS_NO_BORDER =
-  'rounded-3xl bg-white/58 backdrop-blur-xl ' +
-  'shadow-[inset_0_1px_0_rgba(255,255,255,0.85),0_1px_2px_rgba(11,92,255,0.05),0_12px_32px_-14px_rgba(11,92,255,0.30)]'
+export const CARD_HOVER =
+  'transition-[transform,box-shadow] duration-300 hover:-translate-y-0.5 ' +
+  'hover:shadow-[0_1px_2px_rgba(20,14,60,0.12),0_22px_46px_-16px_rgba(20,14,60,0.50)]'
+
+/* An outlined pill: industry tags, and the Website / View buttons. The arrow
+   on a button is what marks it as the action, since nothing is filled. */
+export const TAG = `rounded-full border px-2.5 py-1 text-[11px] font-semibold tracking-wide`
+
+export const BUTTON =
+  'inline-flex items-center gap-1.5 rounded-full border-[1.5px] px-3.5 py-1 ' +
+  'text-[11px] font-semibold tracking-wide transition-colors hover:bg-[#F3F0FD]'
+
+/* A scrolling panel: the max-height and overflow go on the card itself, not
+   on a wrapper, so the scrollbar stays inside the rounded border instead of
+   running down the outside of it. */
+export const SCROLL_PANEL =
+  'lg:max-h-[calc(100vh-3rem)] lg:overflow-y-auto ' +
+  '[scrollbar-width:thin] [scrollbar-color:#C5C1D8_transparent]'

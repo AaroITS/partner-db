@@ -3,8 +3,6 @@ import { Plus_Jakarta_Sans } from 'next/font/google'
 import './globals.css'
 import { SectionNav } from '@/components/section-nav'
 
-// Closest freely-licensed match to TT Hoves: geometric grotesque,
-// open apertures, slightly squared curves.
 const sans = Plus_Jakarta_Sans({
   subsets: ['latin'],
   display: 'swap',
@@ -16,6 +14,13 @@ export const metadata: Metadata = {
     'Browse partner organisations and open tenders in the JASMEX target markets.',
 }
 
+/* Grain: an SVG noise filter inlined as a data URI. It breaks up the banding
+   that large gradients show on cheap monitors and makes the ground read as a
+   printed surface rather than a screen fill.
+   baseFrequency sets the grain size — higher is finer. */
+const GRAIN =
+  "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E\")"
+
 export default function RootLayout({
   children,
 }: {
@@ -23,38 +28,48 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* Washes are cyan and blue only — no warm hues — so the glass stays
-          cold. They also give the frosted panels something to refract. */}
       <body
-        className={`${sans.className} min-h-screen text-slate-900 antialiased`}
+        className={`${sans.className} relative min-h-screen text-white antialiased`}
         style={{
-          backgroundColor: '#dde8f8',
+          backgroundColor: '#3B3180',
           backgroundImage: [
-            'radial-gradient(900px 520px at 8% -10%, rgba(34,211,238,0.34), transparent 60%)',
-            'radial-gradient(860px 620px at 92% 2%, rgba(59,130,246,0.34), transparent 62%)',
-            'radial-gradient(780px 520px at 48% 110%, rgba(14,165,233,0.26), transparent 60%)',
+            'radial-gradient(900px 560px at 6% -12%, rgba(126,110,238,0.60), transparent 64%)',
+            'radial-gradient(880px 640px at 94% 0%, rgba(78,112,222,0.55), transparent 66%)',
+            'radial-gradient(780px 540px at 48% 112%, rgba(150,104,214,0.45), transparent 62%)',
           ].join(','),
           backgroundAttachment: 'fixed',
         }}
       >
-        {/* No fill of its own — the page background shows straight through,
-            so the header reads as part of the same surface. */}
-        <header className="border-b border-white/50">
-          <div className="mx-auto max-w-6xl px-6 pt-6 pb-5">
-            <div className="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
-              <span className="text-lg font-bold tracking-tight text-slate-900">
-                JASMEX Partner Mapping and Leads Database
-              </span>
-              <span className="text-sm text-slate-600">
-                This website is managed by ITS Finland
-              </span>
+        {/* The grain sits in its own fixed layer above the gradients and below
+            everything else. soft-light makes it interact with the colour
+            underneath rather than greying it out, so it reads as pigment. */}
+        <div
+          aria-hidden
+          className="pointer-events-none fixed inset-0 z-0 opacity-[0.055] mix-blend-soft-light"
+          style={{ backgroundImage: GRAIN, backgroundSize: '300px 300px' }}
+        />
+
+        <div className="relative z-10">
+          <header className="border-b border-white/20">
+            {/* Title hard against the left margin, nav hard against the right,
+                both on one row. items-center keeps them optically level
+                despite the title being much larger. */}
+            <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-8 gap-y-4 px-6 py-6">
+              <div>
+                <h1 className="text-[30px] font-bold leading-tight tracking-[-0.02em] text-white">
+                  JASMEX Partner Mapping and Leads Database
+                </h1>
+                <p className="mt-1 text-sm text-white/70">
+                  This website is managed by ITS Finland
+                </p>
+              </div>
+
+              <SectionNav />
             </div>
+          </header>
 
-            <SectionNav />
-          </div>
-        </header>
-
-        <main className="mx-auto max-w-6xl px-6 py-8">{children}</main>
+          <main className="mx-auto max-w-6xl px-6 py-7">{children}</main>
+        </div>
       </body>
     </html>
   )
