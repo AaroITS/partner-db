@@ -1,4 +1,9 @@
-import { createClient, type Contract } from '@/lib/supabase/server'
+import {
+  createClient,
+  companyKey,
+  type Contract,
+  type Partner,
+} from '@/lib/supabase/server'
 import { BLUE, BLUE_DEEP, GLASS, GLASS_HOVER } from '@/lib/theme'
 import {
   ClearFilters,
@@ -28,20 +33,33 @@ export default async function Contracts({
   const params = await searchParams
   const supabase = createClient()
 
-  const { data, error } = await supabase
-    .from('contracts')
-    .select('*')
-    .order('awarded_date', { ascending: false })
+  // Partners are fetched too, so a supplier name can link to its website.
+  const [contractRes, partnerRes] = await Promise.all([
+    supabase
+      .from('contracts')
+      .select('*')
+      .order('awarded_date', { ascending: false }),
+    supabase.from('partners').select('name, website'),
+  ])
 
-  if (error) {
+  if (contractRes.error) {
     return (
       <p className="rounded-2xl border border-red-200 bg-red-50/80 p-4 text-sm text-red-800 backdrop-blur-xl">
-        Could not load contracts: {error.message}
+        Could not load contracts: {contractRes.error.message}
       </p>
     )
   }
 
-  const all = (data ?? []) as Contract[]
+  const all = (contractRes.data ?? []) as Contract[]
+
+  // Supplier name -> that partner's website, keyed on the normalised name so
+  // "MIOVISION TECHNOLOGIES INCORPORATED" finds the partner called
+  // "Miovision". Exact comparison, for the reason given in server.ts.
+  const siteOf = new Map<string, string>()
+  for (const p of (partnerRes.data ?? []) as Pick<Partner, 'name' | 'website'>[]) {
+    const key = companyKey(p.name)
+    if (key && p.website) siteOf.set(key, p.website)
+  }
 
   const pickedBuyers = list(params.buyer)
   const pickedIndustries = list(params.industry)
@@ -169,14 +187,30 @@ export default async function Contracts({
                   </span>
                 </div>
 
-                {c.supplier && (
-                  <p
-                    style={{ color: BLUE_DEEP }}
-                    className="mt-2 text-sm font-semibold"
-                  >
-                    {c.supplier}
-                  </p>
-                )}
+                {c.supplier &&
+                  (() => {
+                    // Linked only where this supplier exists as a partner
+                    // with a website; otherwise it stays plain text.
+                    const site = siteOf.get(companyKey(c.supplier))
+                    return site ? (
+                      <a
+                        href={site}
+                        target="_blank"
+                        rel="noreferrer"
+                        style={{ color: BLUE_DEEP }}
+                        className="mt-2 inline-block text-sm font-semibold underline underline-offset-4 transition-opacity hover:opacity-70"
+                      >
+                        {c.supplier}
+                      </a>
+                    ) : (
+                      <p
+                        style={{ color: BLUE_DEEP }}
+                        className="mt-2 text-sm font-semibold"
+                      >
+                        {c.supplier}
+                      </p>
+                    )
+                  })()}
 
                 <p className="mt-1 text-sm text-slate-600">
                   {c.buyer}

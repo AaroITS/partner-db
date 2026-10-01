@@ -276,8 +276,12 @@ export default async function Home({
                   {/* Only shown when this partner appears in the contracts
                       data. Plain <details> — no JavaScript needed. */}
                   {won.length > 0 && (
-                    <details className="group mt-4">
-                      <summary className="cursor-pointer list-none rounded-xl border border-[#9ec1f5] bg-white/60 px-4 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-white/85">
+                    /* One bordered panel wrapping summary and rows, so opening
+                       reads as the panel growing rather than new cards
+                       appearing. The summary keeps its bottom corners rounded
+                       only while closed. */
+                    <details className="group mt-4 overflow-hidden rounded-xl border border-[#9ec1f5]">
+                      <summary className="cursor-pointer list-none bg-white/60 px-4 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-white/85 group-open:border-b group-open:border-[#9ec1f5]">
                         <span className="inline-block w-4 transition-transform group-open:rotate-90">
                           ›
                         </span>
@@ -287,15 +291,27 @@ export default async function Home({
                         </span>
                       </summary>
 
-                      <ul className="mt-3 space-y-2">
+                      <ul className="divide-y divide-[#c9dcf7] bg-white/40">
                         {won.map((c) => (
-                          <li
-                            key={c.id}
-                            className="rounded-xl border border-[#9ec1f5] bg-white/60 px-4 py-3"
-                          >
-                            <p className="text-sm font-semibold leading-snug text-slate-900">
-                              {c.title}
-                            </p>
+                          <li key={c.id} className="px-4 py-3">
+                            {/* The title is the link where the buyer
+                                published one. 184 of 217 contracts have a
+                                link; the rest stay as plain text. */}
+                            {c.link ? (
+                              <a
+                                href={c.link}
+                                target="_blank"
+                                rel="noreferrer"
+                                style={{ color: BLUE_DEEP }}
+                                className="text-sm font-semibold leading-snug underline underline-offset-4 transition-opacity hover:opacity-70"
+                              >
+                                {c.title}
+                              </a>
+                            ) : (
+                              <p className="text-sm font-semibold leading-snug text-slate-900">
+                                {c.title}
+                              </p>
+                            )}
                             <p className="mt-1 flex flex-wrap items-baseline gap-x-2 text-[11px] text-slate-500">
                               <span>{c.buyer}</span>
                               <span className="text-slate-300">·</span>

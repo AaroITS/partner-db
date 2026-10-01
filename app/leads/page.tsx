@@ -245,8 +245,8 @@ export default async function Leads({
                   </div>
 
                   {/* Plain <details> — no JavaScript needed for the accordion. */}
-                  <details className="group mt-4">
-                    <summary className="cursor-pointer list-none rounded-xl border border-[#9ec1f5] bg-white/60 px-4 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-white/85">
+                  <details className="group mt-4 overflow-hidden rounded-xl border border-[#9ec1f5]">
+                    <summary className="cursor-pointer list-none bg-white/60 px-4 py-2.5 text-sm font-semibold text-slate-700 transition-colors hover:bg-white/85 group-open:border-b group-open:border-[#9ec1f5]">
                       <span className="inline-block w-4 transition-transform group-open:rotate-90">
                         ›
                       </span>
@@ -262,14 +262,11 @@ export default async function Leads({
                         list any of these industries.
                       </p>
                     ) : (
-                      <ul className="mt-3 space-y-2">
+                      <ul className="divide-y divide-[#c9dcf7] bg-white/40">
                         {suggested.map((p) => (
-                          <li
-                            key={p.id}
-                            // Light blue edge so the row separates from the
-                            // translucent card behind it.
-                            className="rounded-xl border border-[#9ec1f5] bg-white/60 px-4 py-3"
-                          >
+                           <li key={p.id} className="px-4 py-3">
+                            
+      
                             <div className="flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1">
                               <span className="text-sm font-semibold text-slate-900">
                                 {p.name}
