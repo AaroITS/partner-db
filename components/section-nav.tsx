@@ -1,41 +1,45 @@
-'use client'
+"use client";
 
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { ACCENT_GRADIENT, INK, MUTED } from "@/lib/theme";
 
 const SECTIONS = [
-  { href: '/', label: 'Partners' },
-  { href: '/leads', label: 'Leads' },
-  { href: '/contracts', label: 'Contracts' },
-]
+  { href: "/", label: "Partners" },
+  { href: "/leads", label: "Leads" },
+  { href: "/contracts", label: "Contracts" },
+];
 
-// Segmented control. Needs to be a client component because it reads the
-// current URL to decide which segment is active.
-//
-// No wrapper and no margin: the header row positions it, so it sits flush
-// against the right margin.
+// Underlined tabs. The accent underline marks the current section and the
+// label goes from grey to near-black, so the state survives without colour.
 export function SectionNav() {
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   return (
-    <nav className="inline-flex shrink-0 gap-1 rounded-full border border-white/20 bg-white/12 p-1">
+    <nav className="flex shrink-0 gap-6">
       {SECTIONS.map((s) => {
-        const isActive = pathname === s.href
+        const isActive = pathname === s.href;
         return (
           <Link
             key={s.href}
             href={s.href}
-            aria-current={isActive ? 'page' : undefined}
-            className={`rounded-full px-5 py-1.5 text-sm font-semibold transition-colors ${
-              isActive
-                ? 'bg-white text-[#231B50]'
-                : 'text-white/80 hover:bg-white/15'
-            }`}
+            aria-current={isActive ? "page" : undefined}
+            style={{ color: isActive ? INK : MUTED }}
+            className="relative pb-1.5 text-sm font-semibold transition-colors hover:text-[#0A0A0B]"
           >
             {s.label}
+            {/* Matches the rule under the header, so the active tab reads as
+                a piece of the same line. */}
+            {isActive && (
+              <span
+                aria-hidden
+                className="absolute inset-x-0 bottom-0 h-0.5 rounded-full"
+                style={{ backgroundImage: ACCENT_GRADIENT }}
+              />
+            )}
           </Link>
-        )
+        );
       })}
     </nav>
-  )
+  );
 }

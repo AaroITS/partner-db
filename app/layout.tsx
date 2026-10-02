@@ -1,76 +1,72 @@
-import type { Metadata } from 'next'
-import { Plus_Jakarta_Sans } from 'next/font/google'
-import './globals.css'
-import { SectionNav } from '@/components/section-nav'
+import type { Metadata } from "next";
+import { Instrument_Sans } from "next/font/google";
+import "./globals.css";
+import { SectionNav } from "@/components/section-nav";
+import { ACCENT_GRADIENT, BODY, CANVAS, INK, MUTED } from "@/lib/theme";
 
-const sans = Plus_Jakarta_Sans({
-  subsets: ['latin'],
-  display: 'swap',
-})
+/* One face throughout. Instrument Sans has slightly more character in its
+   letterforms than Inter without being decorative, and it stays neutral at
+   11px, which is where most of this page lives. Exposed as a variable so
+   components elsewhere can reach it. */
+const sans = Instrument_Sans({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-sans",
+});
 
 export const metadata: Metadata = {
-  title: 'JASMEX Partner Mapping and Leads Database',
+  title: "JASMEX Partner Mapping and Leads Database",
   description:
-    'Browse partner organisations and open tenders in the JASMEX target markets.',
-}
-
-/* Grain: an SVG noise filter inlined as a data URI. It breaks up the banding
-   that large gradients show on cheap monitors and makes the ground read as a
-   printed surface rather than a screen fill.
-   baseFrequency sets the grain size — higher is finer. */
-const GRAIN =
-  "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E\")"
+    "Browse partner organisations and open tenders in the JASMEX target markets.",
+};
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
       <body
-        className={`${sans.className} relative min-h-screen text-white antialiased`}
+        className={`${sans.variable} min-h-screen antialiased`}
         style={{
-          backgroundColor: '#3B3180',
-          backgroundImage: [
-            'radial-gradient(900px 560px at 6% -12%, rgba(126,110,238,0.60), transparent 64%)',
-            'radial-gradient(880px 640px at 94% 0%, rgba(78,112,222,0.55), transparent 66%)',
-            'radial-gradient(780px 540px at 48% 112%, rgba(150,104,214,0.45), transparent 62%)',
-          ].join(','),
-          backgroundAttachment: 'fixed',
+          backgroundColor: CANVAS,
+          color: BODY,
+          fontFamily: "var(--font-sans)",
         }}
       >
-        {/* The grain sits in its own fixed layer above the gradients and below
-            everything else. soft-light makes it interact with the colour
-            underneath rather than greying it out, so it reads as pigment. */}
-        <div
-          aria-hidden
-          className="pointer-events-none fixed inset-0 z-0 opacity-[0.055] mix-blend-soft-light"
-          style={{ backgroundImage: GRAIN, backgroundSize: '300px 300px' }}
-        />
-
-        <div className="relative z-10">
-          <header className="border-b border-white/20">
-            {/* Title hard against the left margin, nav hard against the right,
-                both on one row. items-center keeps them optically level
-                despite the title being much larger. */}
-            <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-8 gap-y-4 px-6 py-6">
-              <div>
-                <h1 className="text-[30px] font-bold leading-tight tracking-[-0.02em] text-white">
-                  JASMEX Partner Mapping and Leads Database
-                </h1>
-                <p className="mt-1 text-sm text-white/70">
-                  This website is managed by ITS Finland
-                </p>
-              </div>
-
-              <SectionNav />
+        {/* White against the off-white body, with a hairline underneath. The
+            two tones are close enough that the line is what actually does the
+            separating — which is the point: no band, no weight. */}
+        <header className="bg-white">
+          <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-x-8 gap-y-3 px-6 py-3.5">
+            <div>
+              <h1
+                style={{ color: INK }}
+                className="text-[20px] font-semibold leading-tight tracking-[-0.02em]"
+              >
+                JASMEX Partner Mapping and Leads Database
+              </h1>
+              <p style={{ color: MUTED }} className="mt-0.5 text-xs">
+                Managed by ITS Finland
+              </p>
             </div>
-          </header>
 
-          <main className="mx-auto max-w-6xl px-6 py-7">{children}</main>
-        </div>
+            <SectionNav />
+          </div>
+
+          {/* The one gradient on the site: a 2px rule separating the header
+              from the body. A line can carry colour without the page
+              becoming colourful. */}
+          <div
+            aria-hidden
+            className="h-px w-full"
+            style={{ backgroundImage: ACCENT_GRADIENT }}
+          />
+        </header>
+
+        <main className="mx-auto max-w-6xl px-6 py-6">{children}</main>
       </body>
     </html>
-  )
+  );
 }
