@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import {
   createClient,
   companyKey,
@@ -35,9 +36,26 @@ import {
   GroupHeading,
 } from "@/components/page-parts";
 
-export const revalidate = 0;
+/* Cached for 10 minutes. The data changes a few times a week, so a
+   per-request render bought nothing and made every crawler hit the database.
+   A Supabase edit appears within 10 minutes; nothing needs a redeploy. */
+export const revalidate = 600;
 
 const BASE = "/";
+
+/* Any URL carrying filters is one of thousands of combinations of the same
+   161 records. Telling crawlers not to index those keeps the site's three
+   real pages in search results and stops the permutations being treated as
+   pages worth revisiting. */
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}): Promise<Metadata> {
+  const params = await searchParams;
+  const filtered = Object.keys(params).length > 0;
+  return filtered ? { robots: { index: false, follow: false } } : {};
+}
 
 type Search = {
   q?: string;
@@ -56,10 +74,14 @@ export default async function Home({
 
   // Contracts are fetched too, so a partner card can show what it has won.
   const [partnerRes, contractRes] = await Promise.all([
-    supabase.from("partners").select("*").order("name"),
+    supabase
+      .from("partners")
+      .select("id, name, country, org_type, industry, about, projects, website")
+      .order("name"),
     supabase
       .from("contracts")
-      .select("*")
+      // Only the fields the expander shows, not every column.
+      .select("id, title, buyer, supplier, awarded_value, awarded_date, link")
       .order("awarded_date", { ascending: false }),
   ]);
 

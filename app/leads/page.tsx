@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { createClient, type Partner, type Tender } from "@/lib/supabase/server";
 import {
   ACCENT,
@@ -31,12 +32,27 @@ import {
 } from "@/components/page-parts";
 import { formatDate } from "@/lib/format";
 
-// Never cache: the open/closed state depends on today's date, so a cached
-// page would eventually be wrong.
-export const dynamic = "force-dynamic";
-export const revalidate = 0;
+/* Cached for an hour. The open/closed state depends on today's date, but a
+   deadline only flips at midnight — an hour's staleness can never show the
+   wrong status during a working day, and force-dynamic meant every request
+   re-queried two tables. */
+export const revalidate = 3600;
 
 const BASE = "/leads";
+
+/* Any URL carrying filters is one of thousands of combinations of the same
+   161 records. Telling crawlers not to index those keeps the site's three
+   real pages in search results and stops the permutations being treated as
+   pages worth revisiting. */
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}): Promise<Metadata> {
+  const params = await searchParams;
+  const filtered = Object.keys(params).length > 0;
+  return filtered ? { robots: { index: false, follow: false } } : {};
+}
 
 type Search = {
   q?: string;
@@ -54,8 +70,15 @@ export default async function Leads({
 
   // Partners are fetched too, for the suggested-partners accordion.
   const [tenderRes, partnerRes] = await Promise.all([
-    supabase.from("tenders").select("*").order("deadline"),
-    supabase.from("partners").select("*").order("name"),
+    supabase
+      .from("tenders")
+      .select("id, title, country, organisation, deadline, industry, link")
+      .order("deadline"),
+    // Only what the suggested-partners expander shows.
+    supabase
+      .from("partners")
+      .select("id, name, country, industry, about, website")
+      .order("name"),
   ]);
 
   if (tenderRes.error) {

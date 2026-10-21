@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import {
   createClient,
   companyKey,
@@ -33,9 +34,25 @@ import {
 } from "@/components/page-parts";
 import { formatDate, formatMoney } from "@/lib/format";
 
-export const revalidate = 0;
+/* Cached for an hour. Awarded contracts are historical — they change only
+   when you import more. */
+export const revalidate = 3600;
 
 const BASE = "/contracts";
+
+/* Any URL carrying filters is one of thousands of combinations of the same
+   161 records. Telling crawlers not to index those keeps the site's three
+   real pages in search results and stops the permutations being treated as
+   pages worth revisiting. */
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<Record<string, string | string[] | undefined>>;
+}): Promise<Metadata> {
+  const params = await searchParams;
+  const filtered = Object.keys(params).length > 0;
+  return filtered ? { robots: { index: false, follow: false } } : {};
+}
 
 type Search = {
   q?: string;
@@ -55,7 +72,9 @@ export default async function Contracts({
   const [contractRes, partnerRes] = await Promise.all([
     supabase
       .from("contracts")
-      .select("*")
+      .select(
+        "id, title, buyer, supplier, theme, awarded_value, awarded_date, industry, source_id, link",
+      )
       .order("awarded_date", { ascending: false }),
     supabase.from("partners").select("name, website"),
   ]);
