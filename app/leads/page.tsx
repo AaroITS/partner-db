@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { createClient, type Partner, type Tender } from "@/lib/supabase/server";
+import type { Partner, Tender } from "@/lib/supabase/server";
+import { partners as allPartners, tenders as allTenders } from "@/lib/data";
 import {
   ACCENT,
   ACCENT_TEXT,
@@ -24,12 +25,7 @@ import {
   type Param,
 } from "@/components/filters";
 import { ArrowOut } from "@/components/arrow";
-import {
-  About,
-  CardTitle,
-  EmptyState,
-  ErrorState,
-} from "@/components/page-parts";
+import { About, CardTitle, EmptyState } from "@/components/page-parts";
 import { formatDate } from "@/lib/format";
 
 /* Cached for an hour. The open/closed state depends on today's date, but a
@@ -66,31 +62,9 @@ export default async function Leads({
   searchParams: Promise<Search>;
 }) {
   const params = await searchParams;
-  const supabase = createClient();
 
-  // Partners are fetched too, for the suggested-partners accordion.
-  const [tenderRes, partnerRes] = await Promise.all([
-    supabase
-      .from("tenders")
-      .select("id, title, country, organisation, deadline, industry, link")
-      .order("deadline"),
-    // Only what the suggested-partners expander shows.
-    supabase
-      .from("partners")
-      .select("id, name, country, industry, about, website")
-      .order("name"),
-  ]);
-
-  if (tenderRes.error) {
-    return (
-      <ErrorState
-        message={`Could not load leads: ${tenderRes.error.message}`}
-      />
-    );
-  }
-
-  const all = (tenderRes.data ?? []) as Tender[];
-  const partners = (partnerRes.data ?? []) as Partner[];
+  const all: Tender[] = allTenders;
+  const partners: Partner[] = allPartners;
 
   const pickedCountries = list(params.country);
   const pickedIndustries = list(params.industry);

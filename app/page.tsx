@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
-import {
-  createClient,
-  companyKey,
-  type Contract,
-  type Partner,
-} from "@/lib/supabase/server";
+import { companyKey, type Contract, type Partner } from "@/lib/supabase/server";
+import { contracts as allContracts, partners as allPartners } from "@/lib/data";
 import {
   ACCENT,
   ACCENT_TEXT,
@@ -32,13 +28,12 @@ import {
   About,
   CardTitle,
   EmptyState,
-  ErrorState,
   GroupHeading,
 } from "@/components/page-parts";
 
-/* Cached for 10 minutes. The data changes a few times a week, so a
-   per-request render bought nothing and made every crawler hit the database.
-   A Supabase edit appears within 10 minutes; nothing needs a redeploy. */
+/* The data is baked into the build (see lib/data.ts), so rendering is pure
+   CPU with no network call. revalidate still caches the rendered HTML, which
+   keeps function invocations down. */
 export const revalidate = 600;
 
 const BASE = "/";
@@ -70,31 +65,9 @@ export default async function Home({
   searchParams: Promise<Search>;
 }) {
   const params = await searchParams;
-  const supabase = createClient();
 
-  // Contracts are fetched too, so a partner card can show what it has won.
-  const [partnerRes, contractRes] = await Promise.all([
-    supabase
-      .from("partners")
-      .select("id, name, country, org_type, industry, about, projects, website")
-      .order("name"),
-    supabase
-      .from("contracts")
-      // Only the fields the expander shows, not every column.
-      .select("id, title, buyer, supplier, awarded_value, awarded_date, link")
-      .order("awarded_date", { ascending: false }),
-  ]);
-
-  if (partnerRes.error) {
-    return (
-      <ErrorState
-        message={`Could not load partners: ${partnerRes.error.message}`}
-      />
-    );
-  }
-
-  const all = (partnerRes.data ?? []) as Partner[];
-  const contracts = (contractRes.data ?? []) as Contract[];
+  const all: Partner[] = allPartners;
+  const contracts: Contract[] = allContracts;
 
   // Group contracts by normalised supplier name once, rather than scanning
   // the whole list again for every partner.

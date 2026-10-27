@@ -1,0 +1,3215 @@
+[
+ {
+  "id": "f977f7ce-f43e-40bc-a81f-c9dcd152df0b",
+  "title": "Fibre optic cabling and installation for telecommunications infrastructure",
+  "buyer": "Ville de Montréal",
+  "supplier": "TÉLÉCON INC.",
+  "theme": "Communications & networks",
+  "awarded_value": 57917.84,
+  "awarded_date": "2026-08-14",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "ocds-ec9k95-20164744:20160339",
+  "link": null
+ },
+ {
+  "id": "0303b624-e429-4d62-9ccc-7e0fda9afc46",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF FIBRE OPTIC CABLE BID NO. T77CF25898",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "NCS International",
+  "theme": "Communications & networks",
+  "awarded_value": 822113.99,
+  "awarded_date": "2026-07-29",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "0000315783",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-FIBRE-OPTIC-CABLE-BID-NO-T77CF25898/0000315783?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "c4ef3ded-3033-46fa-9d15-0c31512d8cba",
+  "title": "VESDA Units Replacement / Network Operations Centre (NOC)",
+  "buyer": "Metrolinx",
+  "supplier": "Star Group Canada LTD",
+  "theme": "Communications & networks",
+  "awarded_value": 438000.0,
+  "awarded_date": "2026-07-24",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "3948086466",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3948086466/abstract?origin=0"
+ },
+ {
+  "id": "4d414df6-5bd9-4a9a-8cd1-2e2f19af46b9",
+  "title": "REQUEST FOR BIDS SUPPLY OF ACCESS CONTROL SYSTEM EQUIPMENT FOR SUBSTATION",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "JOHNSON CONTROLS LTD",
+  "theme": "Video, sensing & security",
+  "awarded_value": 79658.4,
+  "awarded_date": "2026-07-23",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "0000319823",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-SUPPLY-OF-ACCESS-CONTROL-SYSTEM-EQUIPMENT-FOR-SUBSTATION/0000319823?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "b9d621e1-2f15-402a-a310-4e53b2652922",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF FIBRE OPTIC SPLICE ENCLOSURES T77AG26340",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "KGPCo Canada, ULC",
+  "theme": "Communications & networks",
+  "awarded_value": 130154.49,
+  "awarded_date": "2026-07-23",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "0000322970",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-FIBRE-OPTIC-SPLICE-ENCLOSURES-T77AG26340/0000322970?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "d3006627-a51a-46fc-8d09-eb1edc3ae453",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF TRANSPONDER BID NO. T06BA26366",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Ador Tech Inc.",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 259628.8,
+  "awarded_date": "2026-07-23",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "0000321378",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-TRANSPONDER-BID-NO-T06BA26366/0000321378?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "da694bb9-2d96-4721-82cc-fadb3d0ad790",
+  "title": "PWD/PS On-Street Parking Payment System",
+  "buyer": "City of Ottawa",
+  "supplier": "PRECISE PARKLINK INC.",
+  "theme": "Fare collection & payments",
+  "awarded_value": null,
+  "awarded_date": "2026-07-23",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "0000306347",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/PWD-PS-On-Street-Parking-Payment-System/0000306347?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "3251f72c-02f2-4654-8bf4-d70089792e41",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF SEPURA RADIO BID NO. T06BD26062",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "HMF Smart Solutions Austria GmbH",
+  "theme": "Communications & networks",
+  "awarded_value": 512419.63,
+  "awarded_date": "2026-07-17",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "0000316250",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-SEPURA-RADIO-BID-NO-T06BD26062/0000316250?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "0bf28105-5eac-494d-ab84-940ecbbc093c",
+  "title": "P25SU26332-Data Center Switch Maintenance and Support",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "CONNEX Telecommunications Inc",
+  "theme": "Communications & networks",
+  "awarded_value": 431585.58,
+  "awarded_date": "2026-07-13",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "0000321425",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P25SU26332-Data-Center-Switch-Maintenance-and-Support/0000321425?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "bfc64e6e-45b8-4442-b6c2-d1a0c22c6f1c",
+  "title": "REQUEST FOR BIDS FOR DEVELOPING AND IMPLEMENTING OF AN INTRUSION DETECTION",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Kelron Inc",
+  "theme": "Video, sensing & security",
+  "awarded_value": 94618.7,
+  "awarded_date": "2026-07-09",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "0000319861",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-DEVELOPING-AND-IMPLEMENTING-OF-AN-INTRUSION-DETECTION/0000319861?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "399fa0d8-1c68-451c-9c66-579b0f11fba5",
+  "title": "On-demand processing of traffic counts from video camera recordings, Mauricie–Centre-du-Québec",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "Miovision Technologies Incorporated",
+  "theme": "Traffic data & modelling",
+  "awarded_value": 13500.0,
+  "awarded_date": "2026-07-06",
+  "industry": [
+   "Traffic Analysis Systems",
+   "Traffic Management"
+  ],
+  "source_id": "ocds-ec9k95-20159538:20155124",
+  "link": null
+ },
+ {
+  "id": "dee486cb-c3f5-47e3-9769-7c943c2aeb10",
+  "title": "On-demand contract to carry out, validate and process traffic data surveys (Montréal metropolitan community)",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "INNOVATION MI-8 INC.",
+  "theme": "Traffic data & modelling",
+  "awarded_value": 1395107.31,
+  "awarded_date": "2026-07-06",
+  "industry": [
+   "Traffic Analysis Systems",
+   "Traffic Management"
+  ],
+  "source_id": "ocds-ec9k95-20140728:20153731",
+  "link": null
+ },
+ {
+  "id": "411e92cf-6866-413c-ab2a-7bab6358b685",
+  "title": "Supply and Delivery of Transit Stop Solar Lighting",
+  "buyer": "Metrolinx",
+  "supplier": "Urban Solar",
+  "theme": "Transit priority & active transport",
+  "awarded_value": null,
+  "awarded_date": "2026-06-19",
+  "industry": [
+   "Micromobility",
+   "Traffic Management"
+  ],
+  "source_id": "3892237006",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3892237006/abstract?origin=0"
+ },
+ {
+  "id": "98999bf2-a296-4015-af7b-d7a785744321",
+  "title": "Purchase of 3 Scout Plus camera units",
+  "buyer": "Ville de Montréal",
+  "supplier": "MIOVISION TECHNOLOGIES INCORPORATED",
+  "theme": "Video, sensing & smart infrastructure",
+  "awarded_value": 40305.65,
+  "awarded_date": "2026-06-19",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "ocds-ec9k95-20161170:20157022",
+  "link": null
+ },
+ {
+  "id": "b002c396-2ce0-4120-acd1-e7acd77c68bb",
+  "title": "Renewal of maintenance for geomatics software licences and tools",
+  "buyer": "Ville de Montréal",
+  "supplier": "ESRI CANADA LIMITED",
+  "theme": "Data, software & planning",
+  "awarded_value": 68052.9,
+  "awarded_date": "2026-06-19",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "ocds-ec9k95-20154865:20149719",
+  "link": null
+ },
+ {
+  "id": "7fad8379-1704-4467-af2c-0344a122815e",
+  "title": "P77PW25002 - NEGOTIABLE REQUEST FOR PROPOSAL – LINE 2 AUTOMATED TRAIN CONTROL",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Hitachi Rail",
+  "theme": "Rail signalling & train control",
+  "awarded_value": null,
+  "awarded_date": "2026-06-17",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "0000283599",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P77PW25002-NEGOTIABLE-REQUEST-FOR-PROPOSAL-LINE-2-AUTOMATED-TRAIN-CONTROL/0000283599?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "8ebde6ed-d630-4a29-9fc2-adee2c6ba3d1",
+  "title": "Purchase of one Miovision camera and accessories for road counts, Saguenay–Lac-Saint-Jean",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "Miovision Technologies Incorporated",
+  "theme": "Traffic data & modelling",
+  "awarded_value": 10119.0,
+  "awarded_date": "2026-06-16",
+  "industry": [
+   "Traffic Analysis Systems",
+   "Traffic Management"
+  ],
+  "source_id": "ocds-ec9k95-20155068:20149911",
+  "link": null
+ },
+ {
+  "id": "51c2aebd-8fee-404a-9046-3e8561ce0367",
+  "title": "Installation of traffic signals and civil/electrical mobility corridors (Alfred-Nobel/Hymus)",
+  "buyer": "Ville de Montréal",
+  "supplier": "CONSTRUCTION N.R.C. INC.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 780608.97,
+  "awarded_date": "2026-06-15",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "ocds-ec9k95-20156372:20152292",
+  "link": null
+ },
+ {
+  "id": "1ffe39b9-ade9-4f82-b2e4-071563fe888e",
+  "title": "On-demand construction of vehicle detection loops and replacement of counting system cabinets, Chaudière-Appalaches",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "9144-6823 Qc. inc. Vigneault électrique",
+  "theme": "Traffic data & modelling",
+  "awarded_value": 269375.0,
+  "awarded_date": "2026-06-11",
+  "industry": [
+   "Traffic Analysis Systems",
+   "Traffic Management"
+  ],
+  "source_id": "ocds-ec9k95-20138077:20147922",
+  "link": null
+ },
+ {
+  "id": "629700c2-559e-4b3a-874a-25283693ee64",
+  "title": "TS / TCSP Cloud-Based On-Demand Transit Software Solution",
+  "buyer": "City of Ottawa",
+  "supplier": "Via Transportation, Inc.",
+  "theme": "Data, software & planning",
+  "awarded_value": 90400.0,
+  "awarded_date": "2026-06-09",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "0000304943",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/TS-TCSP-Cloud-Based-On-Demand-Transit-Software-Solution/0000304943?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "26f5f6eb-b055-4a93-a157-2b7abf271507",
+  "title": "REQUEST FOR PROPOSAL PHOTO ID CENTRE SERVICES RFP NO. T01DW25945",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "David Garaffa, SP",
+  "theme": "Fare collection & payments",
+  "awarded_value": 786790.75,
+  "awarded_date": "2026-06-08",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "0000315508",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-PROPOSAL-PHOTO-ID-CENTRE-SERVICES-RFP-NO-T01DW25945/0000315508?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "5d2930d9-33be-431b-b31c-6c47223200c3",
+  "title": "TS / TCSP UPS Battery Replacements at 1500 St. Laurent",
+  "buyer": "City of Ottawa",
+  "supplier": "GDF Technologies Inc",
+  "theme": "Facilities & building systems",
+  "awarded_value": 28985.4,
+  "awarded_date": "2026-06-08",
+  "industry": [
+   "Building Systems"
+  ],
+  "source_id": "0000315501",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/TS-TCSP-UPS-Battery-Replacements-at-1500-St-Laurent/0000315501?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "ec6237ba-dce4-4b0f-8ea2-ca8860ffbd79",
+  "title": "Purchase of cameras for the RDP and PAT depots",
+  "buyer": "Ville de Montréal",
+  "supplier": "SITE INTÉGRATION PLUS INC.",
+  "theme": "Video, sensing & smart infrastructure",
+  "awarded_value": 48476.91,
+  "awarded_date": "2026-06-08",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "ocds-ec9k95-20154268:20149189",
+  "link": null
+ },
+ {
+  "id": "cee10951-440f-49b2-b822-eb60e8232531",
+  "title": "Maintenance, repair and reinforcement of telecommunications infrastructure for electrotechnical systems on various roads and motorways",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "Solution Infracom",
+  "theme": "Communications & networks",
+  "awarded_value": 482732.0,
+  "awarded_date": "2026-06-02",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "ocds-ec9k95-20133033:20145403",
+  "link": null
+ },
+ {
+  "id": "53a25f33-658d-42a8-a659-cfdf4070f509",
+  "title": "Two cameras, four batteries and a charger for counting and observing road movements",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "Miovision Technologies Incorporated",
+  "theme": "Traffic data & modelling",
+  "awarded_value": 25104.0,
+  "awarded_date": "2026-05-27",
+  "industry": [
+   "Traffic Analysis Systems",
+   "Traffic Management"
+  ],
+  "source_id": "ocds-ec9k95-20149565:20144466",
+  "link": null
+ },
+ {
+  "id": "ed647300-8a40-4659-8879-2052a518296e",
+  "title": "Purchase of two Miovision cameras and accessories for road counts, Côte-Nord region",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "Miovision Technologies Incorporated",
+  "theme": "Traffic data & modelling",
+  "awarded_value": 21495.0,
+  "awarded_date": "2026-05-27",
+  "industry": [
+   "Traffic Analysis Systems",
+   "Traffic Management"
+  ],
+  "source_id": "ocds-ec9k95-20149211:20144102",
+  "link": null
+ },
+ {
+  "id": "86df87c0-c060-4fd8-9fab-d9936fa31dee",
+  "title": "Installation and repair of traffic counting and classification stations, Outaouais region",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "ÉLECTRICITÉ ANDRÉ LANGEVIN INC.",
+  "theme": "Traffic data & modelling",
+  "awarded_value": 107975.0,
+  "awarded_date": "2026-05-19",
+  "industry": [
+   "Traffic Analysis Systems",
+   "Traffic Management"
+  ],
+  "source_id": "ocds-ec9k95-20130774:20142287",
+  "link": null
+ },
+ {
+  "id": "54262241-b0ed-4e26-984d-23fac7bb7284",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF BAE PROPULSION CONTROL SYSTEM",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "City View Bus Sales & Service Ltd",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 58443.87,
+  "awarded_date": "2026-05-15",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "0000318833",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-BAE-PROPULSION-CONTROL-SYSTEM/0000318833?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "5d9b35e5-c9f1-4046-bd85-58100dbdf897",
+  "title": "On-demand contract for processing traffic camera data, Saguenay–Lac-Saint-Jean region",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "Miovision Technologies Incorporated",
+  "theme": "Traffic data & modelling",
+  "awarded_value": 885379.23,
+  "awarded_date": "2026-05-11",
+  "industry": [
+   "Traffic Analysis Systems",
+   "Traffic Management"
+  ],
+  "source_id": "ocds-ec9k95-20146013:20140805",
+  "link": null
+ },
+ {
+  "id": "909c5746-dc3c-46fa-a584-a7befa1b2fdf",
+  "title": "On-demand maintenance and repair of street lamps, lighting towers and traffic signals, Saguenay–Lac-Saint-Jean",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "Prowatt inc.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 89352.5,
+  "awarded_date": "2026-05-05",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "ocds-ec9k95-20143811:20138937",
+  "link": null
+ },
+ {
+  "id": "7617acb9-715a-47d9-82dc-4a708fcce648",
+  "title": "On-demand maintenance and repair of lighting and traffic signal systems, Alma service centre",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "Prowatt inc.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 114513.0,
+  "awarded_date": "2026-05-04",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "ocds-ec9k95-20145506:20140232",
+  "link": null
+ },
+ {
+  "id": "5ee0fbd3-a1f9-4580-b882-cc514688c7f7",
+  "title": "On-demand maintenance and repair of road lighting and signal systems, Saint-Hyacinthe service centre",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "MICHEL GUIMONT ENTREPRENEUR ELECTRICIEN LTÉE",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 848611.0,
+  "awarded_date": "2026-04-23",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "ocds-ec9k95-20127629:20156453",
+  "link": null
+ },
+ {
+  "id": "92c58919-1c76-4d08-9804-c4b602844156",
+  "title": "Support renewal for Geotime software",
+  "buyer": "Ville de Montréal",
+  "supplier": "PENLINK CANADA INC.",
+  "theme": "Data, software & planning",
+  "awarded_value": 23622.19,
+  "awarded_date": "2026-04-23",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "ocds-ec9k95-20141004:20136302",
+  "link": null
+ },
+ {
+  "id": "ce8a696e-8a56-459e-b8f1-c24ab17f5ec6",
+  "title": "RFP-2025-LCLM-624:Ontario Business and Customer Demographic Data",
+  "buyer": "Metrolinx",
+  "supplier": "Manifold Data Mining Inc.",
+  "theme": "Data, software & planning",
+  "awarded_value": 611689.0,
+  "awarded_date": "2026-04-21",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "3831290939",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3831290939/abstract?origin=0"
+ },
+ {
+  "id": "cf973345-8282-44f9-92ee-56930672f3c2",
+  "title": "RFP-2025-LCLM-584: Provision of NOC Video Wall Replacement",
+  "buyer": "Metrolinx",
+  "supplier": "Design Electronics",
+  "theme": "Video, sensing & security",
+  "awarded_value": 6974019.16,
+  "awarded_date": "2026-04-09",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "3564079011",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3564079011/abstract?origin=0"
+ },
+ {
+  "id": "1f50ebed-e379-44f4-928a-d5ffb86eb8b8",
+  "title": "RFP-2025-PVMD-615: Commercial Off-The-Shelf (COTS)",
+  "buyer": "Metrolinx",
+  "supplier": "OCR Canada Ltd",
+  "theme": "Fare collection & payments",
+  "awarded_value": 9289750.32,
+  "awarded_date": "2026-04-01",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "3609491506",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3609491506/abstract?origin=0"
+ },
+ {
+  "id": "e139efd4-468b-4efc-ba74-6173ad50b373",
+  "title": "RFP-2025-ITIN-593: CCTV Video Management System (VMS)",
+  "buyer": "Metrolinx",
+  "supplier": "Motorola Solutions Canada Inc.",
+  "theme": "Video, sensing & security",
+  "awarded_value": 839000.0,
+  "awarded_date": "2026-04-01",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "3593800728",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3593800728/abstract?origin=0"
+ },
+ {
+  "id": "5cd9a539-feef-4c26-b540-dfaf251762e8",
+  "title": "Supply of eight speed display signs, Saint-Léonard borough",
+  "buyer": "Ville de Montréal",
+  "supplier": "TRAFIC INNOVATION INC.",
+  "theme": "Automated enforcement",
+  "awarded_value": 34584.48,
+  "awarded_date": "2026-03-31",
+  "industry": [
+   "Enforcement Systems",
+   "License Plate Recognition"
+  ],
+  "source_id": "ocds-ec9k95-20139404:20134533",
+  "link": null
+ },
+ {
+  "id": "c5f862b6-7d6d-4fd4-94d9-221963a0d471",
+  "title": "Service contract for Cisco telecommunications equipment",
+  "buyer": "Ville de Montréal",
+  "supplier": "La Compagnie de Téléphone Bell du Canada ou Bell Canada(nouveau historique)",
+  "theme": "Communications & networks",
+  "awarded_value": 864754.49,
+  "awarded_date": "2026-03-26",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "ocds-ec9k95-20138652:20133861",
+  "link": null
+ },
+ {
+  "id": "4b7e8786-5741-4584-88ca-4795da66ce12",
+  "title": "Traffic signal upgrade",
+  "buyer": "Ville de Montréal",
+  "supplier": "BRUNEAU ELECTRIQUE INC.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 495045.56,
+  "awarded_date": "2026-03-18",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "ocds-ec9k95-20121815:20127949",
+  "link": null
+ },
+ {
+  "id": "6310727f-19ae-46b0-b866-aac9b5f1dcea",
+  "title": "OPS/Ottawa Police Video Surveillance System Equipment",
+  "buyer": "City of Ottawa",
+  "supplier": "360 Advanced Security Corporation",
+  "theme": "Video, sensing & security",
+  "awarded_value": 350925.0,
+  "awarded_date": "2026-03-16",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "0000314543",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/OPS-Ottawa-Police-Video-Surveillance-System-Equipment/0000314543?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "a099b53d-6a23-4e45-a593-85f9305b8a0d",
+  "title": "PT-2025-LCLO-189: Inspection and Calibration of Air Quality Monitoring Systems",
+  "buyer": "Metrolinx",
+  "supplier": "The Armstrong Monitoring Corporation",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 90000.0,
+  "awarded_date": "2026-03-16",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "3804623802",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3804623802/abstract?origin=0"
+ },
+ {
+  "id": "74e39e5f-4925-4e6d-a9a6-fe86fa565304",
+  "title": "FCS/ITS/ Service Management Platform",
+  "buyer": "City of Ottawa",
+  "supplier": "Logitek Technology Ltd.",
+  "theme": "Data, software & planning",
+  "awarded_value": null,
+  "awarded_date": "2026-03-05",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "0000285118",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/FCS-ITS-Service-Management-Platform/0000285118?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "be3b48b6-4a40-408e-bbcb-a3d5e44eead0",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY AND DELIVERY OF SCADA CABLES BID NO. T77CF25732",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Wesco Anixter",
+  "theme": "Facilities & building systems",
+  "awarded_value": 249412.47,
+  "awarded_date": "2026-02-11",
+  "industry": [
+   "Building Systems"
+  ],
+  "source_id": "0000306585",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-AND-DELIVERY-OF-SCADA-CABLES-BID-NO-T77CF25732/0000306585?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "23927a5c-498b-4da8-a982-cd4015ca4616",
+  "title": "Supply and Delivery of Three (3) New LED Messaging Boards for Metrolinx",
+  "buyer": "Metrolinx",
+  "supplier": "Stinson Equipment Ltd",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 89247.0,
+  "awarded_date": "2026-02-05",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "3769509716",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3769509716/abstract?origin=0"
+ },
+ {
+  "id": "4a7fe433-452a-487f-9ad3-91abae15b038",
+  "title": "P76SK25418 - SUPPLY AND DELIVERY OF EV BUS GARAGE TUGS",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "HABENCHTRAIET ROSS TYLER INC",
+  "theme": "Fleet electrification & charging",
+  "awarded_value": 3423900.0,
+  "awarded_date": "2026-02-05",
+  "industry": [
+   "EV Charging",
+   "Fleet Management"
+  ],
+  "source_id": "0000295510",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P76SK25418-SUPPLY-AND-DELIVERY-OF-EV-BUS-GARAGE-TUGS/0000295510?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "2982d989-1a21-4f2a-8d64-c98b5521a57f",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF ANTENNA TRANSPONDER INTERROGATOR T06BM25748",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "COMET Electronics LLC",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 2959772.25,
+  "awarded_date": "2026-01-30",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "0000304905",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-ANTENNA-TRANSPONDER-INTERROGATOR-T06BM25748/0000304905?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "48149a25-e049-424e-a767-e44c36fd8092",
+  "title": "Request for Proposals for the Supply, Installation, Maintenance and Repair of Toronto 360 Wayfinding Signs",
+  "buyer": "City of Toronto",
+  "supplier": "FUTURE SYSTEMS INC.",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": null,
+  "awarded_date": "2026-01-12",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "5282125258",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%225282-12-5258%22"
+ },
+ {
+  "id": "54b2d400-afec-4167-a9cf-5027431e8505",
+  "title": "Remote Rail Temperature Monitoring Equipment",
+  "buyer": "Metrolinx",
+  "supplier": "Summit Infrastructure",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 304636.0,
+  "awarded_date": "2026-01-02",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "3528670459",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3528670459/abstract?origin=0"
+ },
+ {
+  "id": "ebe88694-3331-40f9-81bf-a08729f3209c",
+  "title": "PT-2025-LCLO-172: Services for Monitoring, Analyzing and Recommending Electrical",
+  "buyer": "Metrolinx",
+  "supplier": "Edgecom Energy Inc.",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 79500.0,
+  "awarded_date": "2025-12-29",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "3640016413",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3640016413/abstract?origin=0"
+ },
+ {
+  "id": "00beb521-5e8c-4603-b345-5c2569539797",
+  "title": "RFP-2024-BFEN-544: Provision of Bus Collision Avoidance System",
+  "buyer": "Metrolinx",
+  "supplier": "Provix Inc.",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": null,
+  "awarded_date": "2025-12-22",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "3522103372",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3522103372/abstract?origin=0"
+ },
+ {
+  "id": "bf54841c-533d-4b17-a735-80b0340999df",
+  "title": "TS/TCSP/ Supply and Deliver Bus Security Camera Systems",
+  "buyer": "City of Ottawa",
+  "supplier": "360 Advanced Security Corporation",
+  "theme": "Video, sensing & security",
+  "awarded_value": null,
+  "awarded_date": "2025-12-18",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "0000281801",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/TS-TCSP-Supply-and-Deliver-Bus-Security-Camera-Systems/0000281801?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "e3d9efa0-465a-4062-af31-9293fed814af",
+  "title": "Design, oversight, deployment and upgrade of the City's proprietary fibre optic networks",
+  "buyer": "Ville de Montréal",
+  "supplier": "CIMA+ S.E.N.C.",
+  "theme": "Communications & networks",
+  "awarded_value": 1494629.01,
+  "awarded_date": "2025-12-18",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "ocds-ec9k95-20086960:20116940",
+  "link": null
+ },
+ {
+  "id": "09371783-74e6-43b8-80ca-bd9f824a2576",
+  "title": "Purchase of security cameras, Saint-Léonard borough",
+  "buyer": "Ville de Montréal",
+  "supplier": "LOGIC-CONTRÔLE INC.",
+  "theme": "Video, sensing & smart infrastructure",
+  "awarded_value": 82783.48,
+  "awarded_date": "2025-12-17",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "ocds-ec9k95-20112593:20110874",
+  "link": null
+ },
+ {
+  "id": "a98a4b22-9166-4c2b-84d8-4432ab007758",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF LUMINATOR PARTS BID NO. M06AM25404",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "The Aftermarket Parts Company, LLC",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 1196000.0,
+  "awarded_date": "2025-12-10",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "0000297781",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-LUMINATOR-PARTS-BID-NO-M06AM25404/0000297781?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "affb68a2-2c65-455c-8b36-30c69ef67133",
+  "title": "Supply and Delivery of On-Board Video Surveillance System for Transit Vehicles",
+  "buyer": "Metrolinx",
+  "supplier": "247Security Inc.",
+  "theme": "Video, sensing & security",
+  "awarded_value": null,
+  "awarded_date": "2025-12-09",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "3442036473",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3442036473/abstract?origin=0"
+ },
+ {
+  "id": "045291e6-2d8b-4516-b9ec-1b15cb12da37",
+  "title": "RFP-2024-LCLP-540: Corridor Access Control System",
+  "buyer": "Metrolinx",
+  "supplier": "Accenture",
+  "theme": "Video, sensing & security",
+  "awarded_value": 15735520.0,
+  "awarded_date": "2025-11-27",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "3245828356",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3245828356/abstract?origin=0"
+ },
+ {
+  "id": "adaed9c5-8961-4143-b3fc-e0d28502aafc",
+  "title": "RFP-2023-ITIN-481: Computer Aided Dispatch/Automatic Vehicle Location System",
+  "buyer": "Metrolinx",
+  "supplier": "Ineo Systrans Inc",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 17447199.09,
+  "awarded_date": "2025-11-17",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "2845828956",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2845828956/abstract?origin=0"
+ },
+ {
+  "id": "a86cdd7e-fa1a-49e7-9f98-00d7932f4e8a",
+  "title": "RFP-2025-LCLM-585: Submissions for Enterprise Work Management Software.",
+  "buyer": "Metrolinx",
+  "supplier": "Cirface",
+  "theme": "Data, software & planning",
+  "awarded_value": 1214003.37,
+  "awarded_date": "2025-11-14",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "3461573566",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3461573566/abstract?origin=0"
+ },
+ {
+  "id": "1f821fd9-c762-4676-b4e4-3f879ec60363",
+  "title": "ArcGIS maintenance renewal",
+  "buyer": "Ville de Montréal",
+  "supplier": "ESRI CANADA LIMITED",
+  "theme": "Data, software & planning",
+  "awarded_value": 41354.01,
+  "awarded_date": "2025-11-01",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "ocds-ec9k95-20142936:20138160",
+  "link": null
+ },
+ {
+  "id": "84eb0e70-d900-4464-add0-d97f4a17cf8b",
+  "title": "Proof of concept for ESRI ArcGIS Enterprise to document the fibre optic network",
+  "buyer": "Ville de Montréal",
+  "supplier": "ESRI CANADA LIMITED",
+  "theme": "Data, software & planning",
+  "awarded_value": 32546.13,
+  "awarded_date": "2025-10-17",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "ocds-ec9k95-20100821:20099294",
+  "link": null
+ },
+ {
+  "id": "1948fe53-9125-4f55-af41-4d3f59d51c92",
+  "title": "For the Provision of Asset Tagging",
+  "buyer": "Metrolinx",
+  "supplier": "RAELKON Teams",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 108080.0,
+  "awarded_date": "2025-10-15",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "3562531208",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3562531208/abstract?origin=0"
+ },
+ {
+  "id": "3808d7df-17fc-4570-9277-58007439a08c",
+  "title": "Traffic signals and signal pre-emption on Henri-Bourassa",
+  "buyer": "Ville de Montréal",
+  "supplier": "Systèmes Urbains Inc.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 173718.45,
+  "awarded_date": "2025-10-01",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "ocds-ec9k95-20092283:20096518",
+  "link": null
+ },
+ {
+  "id": "40a72788-61e3-481c-9813-e7487d96ee60",
+  "title": "Purchase of Scout Plus traffic cameras for the Eeyou Istchee Baie-James region",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "Miovision Technologies Incorporated",
+  "theme": "Video, sensing & smart infrastructure",
+  "awarded_value": 22395.0,
+  "awarded_date": "2025-09-23",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "ocds-ec9k95-20096645:20094764",
+  "link": null
+ },
+ {
+  "id": "ad726780-6e3a-42e5-8393-b6e80156f2bb",
+  "title": "OVERHEAD CONTACT WIRE & TRACK MEASUREMENTS SCANNING SYSTEMS BID NO. T58BL25198",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Kummler + Matter AG",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 1047566.5,
+  "awarded_date": "2025-09-17",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "0000289927",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/OVERHEAD-CONTACT-WIRE-TRACK-MEASUREMENTS-SCANNING-SYSTEMS-BID-NO-T58BL25198/0000289927?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "f95a0a2b-de31-4390-866d-16c35ab105c5",
+  "title": "RFP-2025-PROC-582: Supply and Delivery of 9-Metre Battery Electric Transit Buses",
+  "buyer": "Metrolinx",
+  "supplier": "Letenda Inc.",
+  "theme": "Fleet electrification & charging",
+  "awarded_value": null,
+  "awarded_date": "2025-09-11",
+  "industry": [
+   "EV Charging",
+   "Fleet Management"
+  ],
+  "source_id": "3466412563",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3466412563/abstract?origin=0"
+ },
+ {
+  "id": "327951e8-ef80-40b0-b4f6-7be14959be5d",
+  "title": "P73SQ24127 - BRIGHTDROP BATTERY ELECTRIC CARGO VANS",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Roy Foss Chevrolet LTD",
+  "theme": "Data, software & planning",
+  "awarded_value": 279300.0,
+  "awarded_date": "2025-08-26",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "0000265723",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P73SQ24127-BRIGHTDROP-BATTERY-ELECTRIC-CARGO-VANS/0000265723?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "6806f540-aae5-4cfe-b9ce-12eccb06fd90",
+  "title": "P76SQ25287 - SUPPLY OF ELECTRIC CARGO VANS",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Ontario Inc O/A Ford Downtown/Lincoln Downtown",
+  "theme": "Fleet electrification & charging",
+  "awarded_value": 770410.82,
+  "awarded_date": "2025-08-26",
+  "industry": [
+   "EV Charging",
+   "Fleet Management"
+  ],
+  "source_id": "0000291731",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P76SQ25287-SUPPLY-OF-ELECTRIC-CARGO-VANS/0000291731?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "c27a17cc-07dd-4e53-aee4-4d70108a70f6",
+  "title": "P73SQ24398 - MERCEDES-BENZ ELECTRIC VEHICLE CARGO VANS",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "MB Mississauga Van Centre",
+  "theme": "Fleet electrification & charging",
+  "awarded_value": 223225.0,
+  "awarded_date": "2025-08-26",
+  "industry": [
+   "EV Charging",
+   "Fleet Management"
+  ],
+  "source_id": "0000271842",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P73SQ24398-MERCEDES-BENZ-ELECTRIC-VEHICLE-CARGO-VANS/0000271842?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "a021a743-9a23-41a9-8a47-f39125afc69f",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF GENETEC NETWORK VIDEO RECORDERS BID T06BE2542",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Metrobit Inc",
+  "theme": "Data, software & planning",
+  "awarded_value": 148507.43,
+  "awarded_date": "2025-08-07",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "0000295320",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-GENETEC-NETWORK-VIDEO-RECORDERS-BID-T06BE2542/0000295320?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "3057299b-4361-463a-9990-b14f8518ab92",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF FIBRE OPTIC CABLE BID NO. T06CF25216",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "NCS International",
+  "theme": "Communications & networks",
+  "awarded_value": 2174967.5,
+  "awarded_date": "2025-07-24",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "0000288914",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-FIBRE-OPTIC-CABLE-BID-NO-T06CF25216/0000288914?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "f33b884d-1f2b-4c91-ab1f-650842d4c02a",
+  "title": "Supply and Delivery of Kenwood Radios",
+  "buyer": "Metrolinx",
+  "supplier": "JVCKENWOOD Canada Inc.",
+  "theme": "Communications & networks",
+  "awarded_value": 146687.21,
+  "awarded_date": "2025-07-14",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "3464645710",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3464645710/abstract?origin=0"
+ },
+ {
+  "id": "7a301822-653b-4129-9769-8168aab06c0d",
+  "title": "For the Provision of Five LED Messaging Boards",
+  "buyer": "Metrolinx",
+  "supplier": "ALMON EQUIPMENT LTD.",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 149945.0,
+  "awarded_date": "2025-07-03",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "3464645704",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3464645704/abstract?origin=0"
+ },
+ {
+  "id": "26a342bc-e245-4af1-8e6e-1e340e09c757",
+  "title": "Supply, Delivery, and Installation of UHF Bi_x0002_Directional Amplifiers",
+  "buyer": "Metrolinx",
+  "supplier": "Net Electric Ltd.",
+  "theme": "Communications & networks",
+  "awarded_value": 260831.0,
+  "awarded_date": "2025-06-27",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "3390968663",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3390968663/abstract?origin=0"
+ },
+ {
+  "id": "34f41c3b-d167-4af0-b9a6-7a8e8bde129c",
+  "title": "PT-2024-LCLO-996: Supply and Delivery of SmarTire Spares, as required",
+  "buyer": "Metrolinx",
+  "supplier": "Metro Truck Group",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": null,
+  "awarded_date": "2025-06-12",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "3403936816",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3403936816/abstract?origin=0"
+ },
+ {
+  "id": "beb99929-9e3b-43df-9aef-9a6c5f6ccf03",
+  "title": "P25PZ25205 - Palo Alto Firewall Upgrade, Implementation and & Support Services",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "IBM Canada",
+  "theme": "Communications & networks",
+  "awarded_value": 2256611.24,
+  "awarded_date": "2025-05-26",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "0000288551",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P25PZ25205-Palo-Alto-Firewall-Upgrade-Implementation-and-Support-Services/0000288551?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "8c92df8c-a2aa-4596-b262-2c835c1859ce",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF P.A. SPEAKER BID NO. :T77CF25203",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Ador Tech Inc.",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 81868.5,
+  "awarded_date": "2025-05-09",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "0000288454",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-P-A-SPEAKER-BID-NO-T77CF25203/0000288454?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "25c64733-1356-4bd2-ba1c-8ee57c2939ef",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF LCD DISPLAY BID NO. T06BM24718",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Luminator Technology Group",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 201040.56,
+  "awarded_date": "2025-04-28",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "0000280091",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-LCD-DISPLAY-BID-NO-T06BM24718/0000280091?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "57533cea-e3ca-40cd-8c77-c289a2efc131",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF FIBRE OPTIC CABLE BID NO. T77CD24839",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "NCS International",
+  "theme": "Communications & networks",
+  "awarded_value": 71868.0,
+  "awarded_date": "2025-04-28",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "0000285229",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-FIBRE-OPTIC-CABLE-BID-NO-T77CD24839/0000285229?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "eeb85aa0-3804-4dc2-9bbb-32bd43f97929",
+  "title": "SUPPLY OF BAE PROPULSION CONTROL SYSTEMS BID NO. T06BF25124",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "City View Bus Sales & Service Ltd",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 545782.41,
+  "awarded_date": "2025-04-28",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "0000285761",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/SUPPLY-OF-BAE-PROPULSION-CONTROL-SYSTEMS-BID-NO-T06BF25124/0000285761?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "604d8fc9-2b1b-456f-a3a0-482b6bdc8e8e",
+  "title": "PIMR/CC/ Public Online Engagement Tool",
+  "buyer": "City of Ottawa",
+  "supplier": "Thornley Fallis & 76engage",
+  "theme": "Data, software & planning",
+  "awarded_value": null,
+  "awarded_date": "2025-02-19",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "0000270300",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/PIMR-CC-Public-Online-Engagement-Tool/0000270300?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "0b9609f1-9d76-4cf0-8688-9f1144cabbcc",
+  "title": "Purchase of 42 high-performance batteries for variable message signs, Gatineau service centre",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "Batteries Expert Outaouais G. (9599924 Canada Inc.)",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 12516.0,
+  "awarded_date": "2025-02-12",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "ocds-ec9k95-20050144:20047047",
+  "link": null
+ },
+ {
+  "id": "111965d4-37bc-434f-8ea4-8c45fac567f6",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF RFS RADIATING CABLES BID NO. T13BL24657",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "ALLIANCE CORPORATION",
+  "theme": "Communications & networks",
+  "awarded_value": 777920.38,
+  "awarded_date": "2024-12-27",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "0000278201",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-RFS-RADIATING-CABLES-BID-NO-T13BL24657/0000278201?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "228fa868-e48a-46d0-a90a-0eb437c2d28c",
+  "title": "P77RT24454-AUTOMATIC TRAIN CONTROL ATC LINE 2 FIRE SUPPRESSION – PHASE 1",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Control Fire Systems Limited",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 835337.81,
+  "awarded_date": "2024-12-24",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "0000279502",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P77RT24454-AUTOMATIC-TRAIN-CONTROL-ATC-LINE-2-FIRE-SUPPRESSION-PHASE-1/0000279502?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "181661df-b5e2-42dc-b7ea-efaf935c10c4",
+  "title": "RFP-2023-OPEX-466: Body Worn cameras, Dash cameras, Digital Evidence Mgmt System",
+  "buyer": "Metrolinx",
+  "supplier": "Axon Public Safety Canada Inc.",
+  "theme": "Video, sensing & security",
+  "awarded_value": 2556061.0,
+  "awarded_date": "2024-12-20",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "2630452765",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2630452765/abstract?origin=0"
+ },
+ {
+  "id": "3c41ad6f-2959-400a-9044-1896a67acf9d",
+  "title": "TCSPS / TS Uninterruptible Power Supply at 875 Belfast",
+  "buyer": "City of Ottawa",
+  "supplier": "Universal Power Solutions Inc",
+  "theme": "Facilities & building systems",
+  "awarded_value": 64940.0,
+  "awarded_date": "2024-12-17",
+  "industry": [
+   "Building Systems"
+  ],
+  "source_id": "0000280844",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/TCSPS-TS-Uninterruptible-Power-Supply-at-875-Belfast/0000280844?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "e5a00745-6b99-4955-a61d-4f61e97f377a",
+  "title": "PTM-2024-RCRS-181: Supply and Delivery of ICOM Radios",
+  "buyer": "Metrolinx",
+  "supplier": "AirTime Communications",
+  "theme": "Communications & networks",
+  "awarded_value": 193399.25,
+  "awarded_date": "2024-12-17",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "3182932312",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3182932312/abstract?origin=0"
+ },
+ {
+  "id": "e889de49-f081-4841-ad1a-46ae0a176b75",
+  "title": "EPS/PSS/ Public Emergency Notification System",
+  "buyer": "City of Ottawa",
+  "supplier": "PEASI",
+  "theme": "Communications & networks",
+  "awarded_value": 17500.0,
+  "awarded_date": "2024-12-13",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "0000279760",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/EPS-PSS-Public-Emergency-Notification-System/0000279760?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "a6d61e0c-40e3-491e-9a69-6f3cc6008888",
+  "title": "REQUEST FOR BIDS FOR THE MAINTENANCE SERVICES FOR GAS MONITORING SYSTEMS",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Edgetch HVAC Services Ltd",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 385000.0,
+  "awarded_date": "2024-12-09",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "0000275307",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-MAINTENANCE-SERVICES-FOR-GAS-MONITORING-SYSTEMS/0000275307?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "55d74f5d-d0f0-4a69-8cba-c83bcbceea0d",
+  "title": "Transit Planning and Scheduling Software Consulting Services RFP No.P25BE24465",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Arcadis Professional Services (Canada) Inc. / Arcadis Architects (Canada) Inc.",
+  "theme": "Data, software & planning",
+  "awarded_value": 1682562.84,
+  "awarded_date": "2024-11-28",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "0000272818",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/Transit-Planning-and-Scheduling-Software-Consulting-Services-RFP-No-P25BE24465/0000272818?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "76804dfa-1e43-4501-8d38-3cabeefd3caa",
+  "title": "TCSPS / TS UPS Maintenance and Repair Services at 1500 St. Laurent",
+  "buyer": "City of Ottawa",
+  "supplier": "DC Group Canada Inc",
+  "theme": "Facilities & building systems",
+  "awarded_value": 59612.7,
+  "awarded_date": "2024-11-19",
+  "industry": [
+   "Building Systems"
+  ],
+  "source_id": "0000280255",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/TCSPS-TS-UPS-Maintenance-and-Repair-Services-at-1500-St-Laurent/0000280255?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "e1a2b1d4-2870-47fd-b098-aafd228927d8",
+  "title": "FCS / FS Supply and Deliver Genuine Luminator Parts and Components",
+  "buyer": "City of Ottawa",
+  "supplier": "The Aftermarket Parts Company, LLC",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": null,
+  "awarded_date": "2024-11-14",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "0000279544",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/FCS-FS-Supply-and-Deliver-Genuine-Luminator-Parts-and-Components/0000279544?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "df829183-3c01-4bfa-a900-a950feb63774",
+  "title": "FCS/SO/ Administrative Penalties System",
+  "buyer": "City of Ottawa",
+  "supplier": "Gtechna, a division of ACCEO Solutions Inc.",
+  "theme": "Fare collection & payments",
+  "awarded_value": null,
+  "awarded_date": "2024-11-06",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "0000260628",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/FCS-SO-Administrative-Penalties-System/0000260628?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "bab04924-c051-4a0b-b198-f65ae43cfadd",
+  "title": "TS/TCSP/ Modems for OC Transpo and Para Transpo Buses",
+  "buyer": "City of Ottawa",
+  "supplier": "Novotech Technologies Corp",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 2259168.45,
+  "awarded_date": "2024-10-31",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "0000278462",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/TS-TCSP-Modems-for-OC-Transpo-and-Para-Transpo-Buses/0000278462?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "d3e980b4-0654-4ee8-ab69-fbc42596c5ea",
+  "title": "Provision of Inspections+ Maintenance on all Components of RF Transmission Lines",
+  "buyer": "Metrolinx",
+  "supplier": "Skyward Towers Inc.",
+  "theme": "Communications & networks",
+  "awarded_value": 291060.0,
+  "awarded_date": "2024-10-31",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "3050968168",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/3050968168/abstract?origin=0"
+ },
+ {
+  "id": "a692ec55-73fc-4318-9674-3326205b981d",
+  "title": "IWS/IS/DCF/CF001039 OC BAS Replacement Merivale Garage",
+  "buyer": "City of Ottawa",
+  "supplier": "R.E.L. Controls Inc.",
+  "theme": "Facilities & building systems",
+  "awarded_value": 365075.0,
+  "awarded_date": "2024-10-17",
+  "industry": [
+   "Building Systems"
+  ],
+  "source_id": "0000275625",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/IWS-IS-DCF-CF001039-OC-BAS-Replacement-Merivale-Garage/0000275625?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "69b6a6b9-23a8-464d-a7c6-f5c495f1e6d8",
+  "title": "RFP-2023-PVMD-446 : Providing a journey planning tool for Transit agencies",
+  "buyer": "Metrolinx",
+  "supplier": "Siemens Mobility Limited",
+  "theme": "Data, software & planning",
+  "awarded_value": 2318000.0,
+  "awarded_date": "2024-10-11",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "2858958058",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2858958058/abstract?origin=0"
+ },
+ {
+  "id": "a43d164a-0739-43e9-9d49-57ea586192b9",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF AUDIO MONITOR PANELS -BID NO.: T10CD24366",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Powertrade Electric Ltd.",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 132481.2,
+  "awarded_date": "2024-09-23",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "0000271533",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-AUDIO-MONITOR-PANELS-BID-NO-T10CD24366/0000271533?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "0c5433e4-0726-4217-93b1-da27f6733583",
+  "title": "PT-2023-ENTS-800 : Investigating Utilizing Ground Penetrating Radar Methodology",
+  "buyer": "Metrolinx",
+  "supplier": "PNR RailWorks Inc.",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 1751012.0,
+  "awarded_date": "2024-09-12",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "2901417113",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2901417113/abstract?origin=0"
+ },
+ {
+  "id": "7375a16f-64fb-4f12-8891-ab7e0a01dc59",
+  "title": "IWS/IS/DCF/CR014673 Replace BAS St Laurent N Garage",
+  "buyer": "City of Ottawa",
+  "supplier": "R.E.L. Controls Inc.",
+  "theme": "Facilities & building systems",
+  "awarded_value": 411628.0,
+  "awarded_date": "2024-09-12",
+  "industry": [
+   "Building Systems"
+  ],
+  "source_id": "0000272939",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/IWS-IS-DCF-CR014673-Replace-BAS-St-Laurent-N-Garage/0000272939?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "1ee7b3a4-991b-4cec-9c99-66d490804c9a",
+  "title": "Standing order for mobile variable message signs (PMVM), Québec region",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "SIGNEL SERVICES INC.",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 1795000.0,
+  "awarded_date": "2024-09-10",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "ocds-ec9k95-20000400:20016917",
+  "link": null
+ },
+ {
+  "id": "4e0d4368-21ba-411b-ad69-3a5d20dbb315",
+  "title": "PWD/TS/ Supply and Deliver Server Hardware Platforms",
+  "buyer": "City of Ottawa",
+  "supplier": "Cattan Technologies Inc.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 26679.0,
+  "awarded_date": "2024-08-22",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "0000264607",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/PWD-TS-Supply-and-Deliver-Server-Hardware-Platforms/0000264607?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "3d8168a0-9845-4fe2-9ab1-804ab357d354",
+  "title": "RFP-2023-LCLP-422: PRESTO Digital Channels (“DC”)",
+  "buyer": "Metrolinx",
+  "supplier": "Accenture",
+  "theme": "Fare collection & payments",
+  "awarded_value": 24288063.0,
+  "awarded_date": "2024-08-19",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "2504280324",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2504280324/abstract?origin=0"
+ },
+ {
+  "id": "b453f537-6d51-48ac-9cb1-9ed604731ce4",
+  "title": "IWSD/IS/DCMB Conroy & Davidson Traffic Control Signal",
+  "buyer": "City of Ottawa",
+  "supplier": "Novatech Engineering Consultants Ltd.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": null,
+  "awarded_date": "2024-08-01",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "0000268698",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/IWSD-IS-DCMB-Conroy-Davidson-Traffic-Control-Signal/0000268698?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "1642233d-0b39-42c6-a681-6237ca802410",
+  "title": "SUPPLY OF BAE BATTERY MODULE ASSEMBLY BID NO. T06AL24251",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "City View Bus Sales & Service Ltd",
+  "theme": "Fleet electrification & charging",
+  "awarded_value": 670487.76,
+  "awarded_date": "2024-07-25",
+  "industry": [
+   "EV Charging",
+   "Fleet Management"
+  ],
+  "source_id": "0000266920",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/SUPPLY-OF-BAE-BATTERY-MODULE-ASSEMBLY-BID-NO-T06AL24251/0000266920?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "a167b967-1dd7-4bcd-b0c8-c192733b09d3",
+  "title": "PT-2024-ITCO-875: IndigoVision-IndigoUltra SUP Renewal May 10th, 24-May 9th, 26",
+  "buyer": "Metrolinx",
+  "supplier": "Convergint Technologies",
+  "theme": "Video, sensing & security",
+  "awarded_value": 430313.45,
+  "awarded_date": "2024-07-04",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "2914132221",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2914132221/abstract?origin=0"
+ },
+ {
+  "id": "5c7a8f8d-721b-4548-a2e1-25eeefbeab53",
+  "title": "RFP-2022-SPST-384 : Provision of Digital Rulebook Tool",
+  "buyer": "Metrolinx",
+  "supplier": "Comply365",
+  "theme": "Data, software & planning",
+  "awarded_value": 3319208.0,
+  "awarded_date": "2024-06-27",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "2472995484",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2472995484/abstract?origin=0"
+ },
+ {
+  "id": "0a789c13-877d-4bc6-999c-ea9f9d2aa1b4",
+  "title": "IWS/IS/DCF/CR014674 Replace BAS St Laurent S Garage",
+  "buyer": "City of Ottawa",
+  "supplier": "R.E.L. Controls Inc.",
+  "theme": "Facilities & building systems",
+  "awarded_value": 390460.0,
+  "awarded_date": "2024-06-24",
+  "industry": [
+   "Building Systems"
+  ],
+  "source_id": "0000266219",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/IWS-IS-DCF-CR014674-Replace-BAS-St-Laurent-S-Garage/0000266219?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "f97e1e5c-f5a6-4f6a-8156-b45ed57917ea",
+  "title": "P25SK22723 - SOCIAL MEDIA MANAGEMENT TOOL SOLUTION",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Sprout Social, Inc.",
+  "theme": "Data, software & planning",
+  "awarded_value": null,
+  "awarded_date": "2024-06-21",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "0000250134",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P25SK22723-SOCIAL-MEDIA-MANAGEMENT-TOOL-SOLUTION/0000250134?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "2689334a-41b1-481d-97a7-fb699f7ea82c",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF SENSORS FOR LFLRV BID NO. T06AE23781",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "CONTROLS DEPOT",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 19411.14,
+  "awarded_date": "2024-06-07",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "0000262939",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-SENSORS-FOR-LFLRV-BID-NO-T06AE23781/0000262939?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "e104cf21-24fd-482d-b990-696361660e27",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF VARIOUS MOTOROLA PRODUCTS PARTS- M06CD24160",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Powertrade Electric Ltd.",
+  "theme": "Communications & networks",
+  "awarded_value": 39285.03,
+  "awarded_date": "2024-06-07",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "0000266380",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-VARIOUS-MOTOROLA-PRODUCTS-PARTS-M06CD24160/0000266380?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "2b63126b-98e1-4845-8276-52338f1649a5",
+  "title": "RFP-2023-TITE-419: Provision of Autonomous Testing of Track Infrastructure",
+  "buyer": "Metrolinx",
+  "supplier": "MER MEC S.p.A.",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 21733989.0,
+  "awarded_date": "2024-06-04",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "2648499067",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2648499067/abstract?origin=0"
+ },
+ {
+  "id": "7221f70c-1606-4ec8-997e-aabe302a7f68",
+  "title": "PTM-2023-STFO-154: Supply and Delivery of Two (2) New LED Messaging Boards",
+  "buyer": "Metrolinx",
+  "supplier": "ATS Traffic",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 60670.0,
+  "awarded_date": "2024-05-23",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "2773560552",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2773560552/abstract?origin=0"
+ },
+ {
+  "id": "d9a4dbf4-e08f-4dcf-b3a5-89d398796f3f",
+  "title": "RFP-2023-PROC-449: Supply and Delivery of Battery Electric Bus Charging Equipm.",
+  "buyer": "Metrolinx",
+  "supplier": "ABB Emobility",
+  "theme": "Fleet electrification & charging",
+  "awarded_value": null,
+  "awarded_date": "2024-05-14",
+  "industry": [
+   "EV Charging",
+   "Fleet Management"
+  ],
+  "source_id": "2735540907",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2735540907/abstract?origin=0"
+ },
+ {
+  "id": "786a653e-a2a9-41ee-ac5c-4374205eb42f",
+  "title": "PT-2023-LCLO-823: Delivery/Install/Maintenance/Training of 2 Smart Locker System",
+  "buyer": "Metrolinx",
+  "supplier": "Real Time Networks Inc.",
+  "theme": "Facilities & building systems",
+  "awarded_value": 180514.0,
+  "awarded_date": "2024-05-10",
+  "industry": [
+   "Building Systems"
+  ],
+  "source_id": "2827113803",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2827113803/abstract?origin=0"
+ },
+ {
+  "id": "a9609923-473d-4a61-a25b-0613958031f6",
+  "title": "PT-2023-LCLO-853: Inspection and Calibration of Air Quality Monitoring Systems",
+  "buyer": "Metrolinx",
+  "supplier": "The Armstrong Monitoring Corporation",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 90000.0,
+  "awarded_date": "2024-05-07",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "2863157659",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2863157659/abstract?origin=0"
+ },
+ {
+  "id": "df6f8811-1d61-4dc2-b40c-f7f2408d7cc8",
+  "title": "PTM-2023-ITIN-156: Google Maps Platform for 5 Years Feb/21st/24 – Feb/20th/29",
+  "buyer": "Metrolinx",
+  "supplier": "Onix Networking Canada Inc.",
+  "theme": "Data, software & planning",
+  "awarded_value": 210131.7,
+  "awarded_date": "2024-04-02",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "2779513558",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2779513558/abstract?origin=0"
+ },
+ {
+  "id": "e2322860-075c-4282-97ef-ae2c47937f8d",
+  "title": "P73SM23778 - SUPPLY OF PLUG-IN HYBRID AND HYBRID MINIVANS",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "2281610 Ontario inc o/a Downtown Ford/Downtown Lincoln",
+  "theme": "Fleet electrification & charging",
+  "awarded_value": 3116360.0,
+  "awarded_date": "2024-04-02",
+  "industry": [
+   "EV Charging",
+   "Fleet Management"
+  ],
+  "source_id": "0000262280",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P73SM23778-SUPPLY-OF-PLUG-IN-HYBRID-AND-HYBRID-MINIVANS/0000262280?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "715470fb-a276-4453-9965-72877bba822c",
+  "title": "RFP-2022-LCLP-377 : PRESTO Service Integration and Management (SIAM)",
+  "buyer": "Metrolinx",
+  "supplier": "Deloitte",
+  "theme": "Fare collection & payments",
+  "awarded_value": 38201150.0,
+  "awarded_date": "2024-03-22",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "2346304962",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2346304962/abstract?origin=0"
+ },
+ {
+  "id": "64d1fac5-c044-4607-a35f-ad24d304da34",
+  "title": "This Request for Proposal (RFP) is to select a qualified Proponent to implement a modern, hosted, adjudicative case management system to replace the City's existing Cobol based Parking Tag Management System (PTMS) which is approaching end of life. The new adjudicative case management system will be",
+  "buyer": "City of Toronto",
+  "supplier": "ADVANCE SOLUTIONS CORPORATION",
+  "theme": "Automated enforcement",
+  "awarded_value": null,
+  "awarded_date": "2024-02-27",
+  "industry": [
+   "Enforcement Systems",
+   "License Plate Recognition"
+  ],
+  "source_id": "3792054025",
+  "link": null
+ },
+ {
+  "id": "8d51105a-75a1-4192-8996-d4069b549edb",
+  "title": "PT-2023-RCRS-787: For the Acquisition of VHF Monitors",
+  "buyer": "Metrolinx",
+  "supplier": "dbSpectra",
+  "theme": "Communications & networks",
+  "awarded_value": null,
+  "awarded_date": "2024-02-07",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "2733187353",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2733187353/abstract?origin=0"
+ },
+ {
+  "id": "dcfb64b6-c37c-4473-a17e-d0b45048308b",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF PIS CONTROLLER FOR LFLRV BID NO. T06AE23666",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Alstom Transport",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 370787.89,
+  "awarded_date": "2024-02-05",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "0000257395",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-PIS-CONTROLLER-FOR-LFLRV-BID-NO-T06AE23666/0000257395?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "6ddbef0e-524c-49d8-b77f-74cdaf28745c",
+  "title": "P73SM23447 - SUPPLY OF FULL SIZE HYBRID SPORT UTILITY VEHICLES",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "2281610 Ontario inc o/a Downtown Ford/Downtown Lincoln",
+  "theme": "Fleet electrification & charging",
+  "awarded_value": 2196362.0,
+  "awarded_date": "2024-01-19",
+  "industry": [
+   "EV Charging",
+   "Fleet Management"
+  ],
+  "source_id": "0000257394",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P73SM23447-SUPPLY-OF-FULL-SIZE-HYBRID-SPORT-UTILITY-VEHICLES/0000257394?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "c2ad5366-3bbc-47e7-a46e-d838d069e89c",
+  "title": "Supply and Delivery of SmarTire Transmitters, as required",
+  "buyer": "Metrolinx",
+  "supplier": "Brandt Tractor Ltd. - Truck & Trailer",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 249700.0,
+  "awarded_date": "2024-01-02",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "2668959576",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2668959576/abstract?origin=0"
+ },
+ {
+  "id": "aec9c9fe-8cb1-4ea7-a101-59b4caeec84d",
+  "title": "PT-2022-RCSC-593: SWITCH MONITORING SUPPORT SERVICES",
+  "buyer": "Metrolinx",
+  "supplier": "Siemens Mobility Limited",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 876197.91,
+  "awarded_date": "2023-12-18",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "2511351553",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2511351553/abstract?origin=0"
+ },
+ {
+  "id": "d6e58bd7-fb43-4f6b-8b38-5592ca5faaa1",
+  "title": "RQQ-2023-RCSC-792: S&C Electrical Mechanical Asset Inspection and Maintenance ac",
+  "buyer": "Metrolinx",
+  "supplier": "Net Electric Ltd.",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 8689539.81,
+  "awarded_date": "2023-12-13",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "2620324760",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2620324760/abstract?origin=0"
+ },
+ {
+  "id": "63ac05d6-3948-44b1-8b29-34bd0ab3839e",
+  "title": "EPS/CS Integrated Security Management System Service Provision",
+  "buyer": "City of Ottawa",
+  "supplier": "360 Advanced Security Corporation",
+  "theme": "Video, sensing & security",
+  "awarded_value": null,
+  "awarded_date": "2023-12-01",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "0000253677",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/EPS-CS-Integrated-Security-Management-System-Service-Provision/0000253677?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "4760710f-5129-4f27-b4e7-a02c05686e53",
+  "title": "SUPPLY OF AXIS CAMERA Q3536-LV Q3626-VE BID NO. T06BK23628",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "P.V. Services Div of 1043524 Ontario Ltd",
+  "theme": "Video, sensing & security",
+  "awarded_value": 246400.46,
+  "awarded_date": "2023-11-16",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "0000256079",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/SUPPLY-OF-AXIS-CAMERA-Q3536-LV-Q3626-VE-BID-NO-T06BK23628/0000256079?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "29010445-305c-4d87-b2cd-53302e8497cb",
+  "title": "MAINTENANCE SERVICES FOR GAS MONITORING SYSTEMS BID NO. T56BK23479",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Hetek Solutions Inc.",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 390000.0,
+  "awarded_date": "2023-11-14",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "0000254899",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/MAINTENANCE-SERVICES-FOR-GAS-MONITORING-SYSTEMS-BID-NO-T56BK23479/0000254899?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "774a204a-9e2f-477e-9c18-8a285a43bc77",
+  "title": "IWS/WSL Supply and Delivery of GPS-denied Wireless Flying Drone",
+  "buyer": "City of Ottawa",
+  "supplier": "MFE Inspection Solutions",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 98700.0,
+  "awarded_date": "2023-11-01",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "0000250380",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/IWS-WSL-Supply-and-Delivery-of-GPS-denied-Wireless-Flying-Drone/0000250380?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "dd8b09b5-bfe0-474f-a24e-f5f5fc81c186",
+  "title": "SUPPLY OF AXIS CAMERA P3727-PLE WITH LICENSE BID NO. T06BK23627",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "P.V. Services Div of 1043524 Ontario Ltd",
+  "theme": "Video, sensing & security",
+  "awarded_value": 339560.48,
+  "awarded_date": "2023-10-20",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "0000256068",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/SUPPLY-OF-AXIS-CAMERA-P3727-PLE-WITH-LICENSE-BID-NO-T06BK23627/0000256068?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "63d7de07-9ad0-4529-86ac-5ceab4245201",
+  "title": "RFP-2022-PROC-398 : Supply & Delivery of 12 Metre Battery Electric Transit Buses",
+  "buyer": "Metrolinx",
+  "supplier": "New Flyer Industries Canada ULC",
+  "theme": "Fleet electrification & charging",
+  "awarded_value": null,
+  "awarded_date": "2023-10-10",
+  "industry": [
+   "EV Charging",
+   "Fleet Management"
+  ],
+  "source_id": "2492564356",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2492564356/abstract?origin=0"
+ },
+ {
+  "id": "d412b46e-3d9b-4703-ac6b-a80c1250b059",
+  "title": "FS/RS/ Integrated Point of Sale System",
+  "buyer": "City of Ottawa",
+  "supplier": "System Innovators",
+  "theme": "Fare collection & payments",
+  "awarded_value": 1963825.0,
+  "awarded_date": "2023-09-20",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "0000213678",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/FS-RS-Integrated-Point-of-Sale-System/0000213678?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "59be4060-c616-4a0d-84e6-59866760091e",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF DISTRIBUTED ANTENNA SYSTEM BID NO. T11BK22689",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Avari Wireless Corporation",
+  "theme": "Communications & networks",
+  "awarded_value": 565215.0,
+  "awarded_date": "2023-09-08",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "0000240627",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-DISTRIBUTED-ANTENNA-SYSTEM-BID-NO-T11BK22689/0000240627?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "d3ec27b7-4df4-4004-beaf-91ca2c889524",
+  "title": "The non-exclusive supply, delivery, installation, and warranty of Modular Transit Platforms, Railings, Ramps and Flexible Bollards and the installation and warranty of Signage",
+  "buyer": "City of Toronto",
+  "supplier": "Guild Electric Limited",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 4594649.57,
+  "awarded_date": "2023-09-07",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "3999401141",
+  "link": null
+ },
+ {
+  "id": "3f4d48b9-39d5-47e4-b081-6c71905942ad",
+  "title": "For Traffic Data Collection Services",
+  "buyer": "City of Toronto",
+  "supplier": "Spectrum Traffic Data Inc.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 4435260.0,
+  "awarded_date": "2023-08-21",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "3863128487",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%223863-12-8487%22"
+ },
+ {
+  "id": "760167f0-9b0d-4d0a-b7df-e5852129d819",
+  "title": "SUPPLY OF BAE BATTERY MODULE ASSEMBLY BID NO. T06AL23144",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "City View Bus Sales & Service Ltd",
+  "theme": "Fleet electrification & charging",
+  "awarded_value": 1034523.86,
+  "awarded_date": "2023-08-04",
+  "industry": [
+   "EV Charging",
+   "Fleet Management"
+  ],
+  "source_id": "0000241253",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/SUPPLY-OF-BAE-BATTERY-MODULE-ASSEMBLY-BID-NO-T06AL23144/0000241253?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "f7b6ed28-9e00-454f-a3d9-39a238ef8f43",
+  "title": "RFP-2022-INND-393 : Ontario Business and Customer Demographic/Psychographic Data",
+  "buyer": "Metrolinx",
+  "supplier": "Environics Analytics",
+  "theme": "Data, software & planning",
+  "awarded_value": 528420.0,
+  "awarded_date": "2023-08-02",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "2368062892",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2368062892/abstract?origin=0"
+ },
+ {
+  "id": "b7649ba3-65da-463a-8e09-d159a160f22c",
+  "title": "FCS/FS/ Supply and Deliver Traffic Signals Cables",
+  "buyer": "City of Ottawa",
+  "supplier": "Karsco Distribution",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": null,
+  "awarded_date": "2023-07-18",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "0000249927",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/FCS-FS-Supply-and-Deliver-Traffic-Signals-Cables/0000249927?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "2f8bfab7-0168-4235-9dfe-8e295ecb5e0b",
+  "title": "IWSD/WSL 38523-92522-S01 Control Systems Integrator Services",
+  "buyer": "City of Ottawa",
+  "supplier": "Undisclosed",
+  "theme": "Data, software & planning",
+  "awarded_value": null,
+  "awarded_date": "2023-07-17",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "0000243240",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/IWSD-WSL-38523-92522-S01-Control-Systems-Integrator-Services/0000243240?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "3b827b73-cead-45c9-bad2-a54b51ac915d",
+  "title": "IWSD/IS/DCMB CP000216 New Traffic Control Device Huntmar Dr to Maple Grove Rd",
+  "buyer": "City of Ottawa",
+  "supplier": "GIP Paving Inc.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 3086000.0,
+  "awarded_date": "2023-07-06",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "0000246561",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/IWSD-IS-DCMB-CP000216-New-Traffic-Control-Device-Huntmar-Dr-to-Maple-Grove-Rd/0000246561?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "1bccb05a-aa91-4dd9-bccb-6c22ea500e72",
+  "title": "P25PZ23205 - VIDEO ANALYTICS SERVICES FOR PASSENGER CAPACITY AND FLOW",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Invision AI, Inc",
+  "theme": "Video, sensing & security",
+  "awarded_value": null,
+  "awarded_date": "2023-06-15",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "0000242830",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P25PZ23205-VIDEO-ANALYTICS-SERVICES-FOR-PASSENGER-CAPACITY-AND-FLOW/0000242830?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "432f8a19-957f-4d98-be96-74bda37841fe",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF DIGITAL TEMPERATURE SENSORS BID NO.T06AE23288",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "SIKA-USA Inc.",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 29601.0,
+  "awarded_date": "2023-06-08",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "0000246029",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-DIGITAL-TEMPERATURE-SENSORS-BID-NO-T06AE23288/0000246029?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "af82ef74-e760-4185-a788-99643dcc45bc",
+  "title": "SERVICES FOR OVERHEAD CONTACT WIRE AND TRACK MEASUREMENTS WITH SCAN SYSTEMS",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Kummler + Matter AG",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 1446190.95,
+  "awarded_date": "2023-06-08",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "0000239089",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/SERVICES-FOR-OVERHEAD-CONTACT-WIRE-AND-TRACK-MEASUREMENTS-WITH-SCAN-SYSTEMS/0000239089?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "d51ed8c2-7efc-4ca9-a853-dce973cfcbc5",
+  "title": "IWSD/IR/AMS Radar Rainfall Data Collection",
+  "buyer": "City of Ottawa",
+  "supplier": "Kije Sipi Ltd.",
+  "theme": "Data, software & planning",
+  "awarded_value": null,
+  "awarded_date": "2023-05-23",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "0000242258",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/IWSD-IR-AMS-Radar-Rainfall-Data-Collection/0000242258?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "13a73935-43c6-4556-803f-466475d8df14",
+  "title": "P25SK22101 - DIGITAL ASSET MANAGEMENT SOLUTION",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "IntelligenceBank",
+  "theme": "Data, software & planning",
+  "awarded_value": null,
+  "awarded_date": "2023-05-16",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "0000233869",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P25SK22101-DIGITAL-ASSET-MANAGEMENT-SOLUTION/0000233869?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "c6a5334a-95ed-49b1-a62e-c00354c31b75",
+  "title": "ICS/ITS/FS/ HPE Servers for Transit Services",
+  "buyer": "City of Ottawa",
+  "supplier": "Nova Networks *",
+  "theme": "Facilities & building systems",
+  "awarded_value": 94747.14,
+  "awarded_date": "2023-05-15",
+  "industry": [
+   "Building Systems"
+  ],
+  "source_id": "0000221997",
+  "link": "https://www.merx.com/cityofottawa/buyer-6700/solicitations/ICS-ITS-FS-HPE-Servers-for-Transit-Services/0000221997?purchasingGroupId=149352201&origin=2"
+ },
+ {
+  "id": "46060564-69df-4c2f-89a6-3782c972d837",
+  "title": "REQUEST FOR BIDS FOR THE SUPPLY OF SPEED SENSORS FOR LFLRV BID NO. T06AE23092",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Davanac",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 183692.0,
+  "awarded_date": "2023-05-04",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "0000240683",
+  "link": "https://www.merx.com/ttc/ttcpurchasingandsales/solicitations/REQUEST-FOR-BIDS-FOR-THE-SUPPLY-OF-SPEED-SENSORS-FOR-LFLRV-BID-NO-T06AE23092/0000240683?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "bcbcfe19-cc93-4303-a71c-40a88ad9cbfc",
+  "title": "P56SK21455 - PROVISION OF GENETEC ADVANTAGE SUPPORT SERVICES",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Bosch Building Technologies Inc. | Paladin Technologies Inc.",
+  "theme": "Video, sensing & security",
+  "awarded_value": 135438.88,
+  "awarded_date": "2023-03-27",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "0000207500",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P56SK21455-PROVISION-OF-GENETEC-ADVANTAGE-SUPPORT-SERVICES/0000207500?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "e9758f6e-1cec-4796-b4d6-2caf5cb57d6d",
+  "title": "P25SK20864 - IN-CAR CAMERA SYSTEM - PILOT",
+  "buyer": "Toronto Transit Commission",
+  "supplier": "Panasonic Canada",
+  "theme": "Video, sensing & security",
+  "awarded_value": 140000.0,
+  "awarded_date": "2023-03-27",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "0000183707",
+  "link": "https://www.merx.com/ttc/torontotransitcommission/solicitations/P25SK20864-IN-CAR-CAMERA-SYSTEM-PILOT/0000183707?purchasingGroupId=1177575101&origin=1"
+ },
+ {
+  "id": "037ce3d0-4332-4122-9b94-9afca42dc336",
+  "title": "PT-2022-ENGB-618 : Asset Tagging for Various Metrolinx Locations",
+  "buyer": "Metrolinx",
+  "supplier": "Plan Group Inc",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 31286.65,
+  "awarded_date": "2023-02-24",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "2395298107",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2395298107/abstract?origin=0"
+ },
+ {
+  "id": "f6a3ca57-7266-4f3c-ac2c-32d9bb4aca88",
+  "title": "RFP-2021-RCSC-343: CN 2000 Units Replacement",
+  "buyer": "Metrolinx",
+  "supplier": "Siemens Mobility Limited",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 1208008.15,
+  "awarded_date": "2023-01-30",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "2209207117",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2209207117/abstract?origin=0"
+ },
+ {
+  "id": "e686121f-b663-48a9-b333-1b0ac875f62b",
+  "title": "RFP-2021-RCDV-341: Metrolinx Track, Signal and Right of Way Maintenance Services",
+  "buyer": "Metrolinx",
+  "supplier": "Siemens Mobility Limited",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 108175405.02,
+  "awarded_date": "2023-01-27",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "2227505509",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2227505509/abstract?origin=0"
+ },
+ {
+  "id": "484e1d74-6b9c-4430-8e86-a74401598ce0",
+  "title": "PTM-2022-ITIN-124: Supply and delivery of Avacor i7 Open Pluggable Slot PC Gen10",
+  "buyer": "Metrolinx",
+  "supplier": "Xerox IT Solutions Canada Ltd.",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 105481.8,
+  "awarded_date": "2022-08-18",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "2252142798",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2252142798/abstract?origin=0"
+ },
+ {
+  "id": "4245e3c8-087e-40f2-b188-fd644d7a619c",
+  "title": "PTM-2022-BUSF-121: Supply & Delivery Bendix SmarTire Sensor/Transmitter Assembly",
+  "buyer": "Metrolinx",
+  "supplier": "Brandt Tractor Ltd. - Truck & Trailer",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 122310.0,
+  "awarded_date": "2022-08-11",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "2238025322",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2238025322/abstract?origin=0"
+ },
+ {
+  "id": "c9facb12-083c-4f21-85de-1152e89c622e",
+  "title": "RFP-2021-STNS-317:Parking Management and Enforcement System",
+  "buyer": "Metrolinx",
+  "supplier": "Precise ParkLink Inc.",
+  "theme": "Automated enforcement",
+  "awarded_value": 527101.0,
+  "awarded_date": "2022-07-12",
+  "industry": [
+   "Enforcement Systems",
+   "License Plate Recognition"
+  ],
+  "source_id": "1984573004",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1984573004/abstract?origin=0"
+ },
+ {
+  "id": "86b901b3-8a45-4cc9-9522-5f070ee5d957",
+  "title": "PTM-2022-RSDV-119:Provision of 310 Kenwood NX-5700K mobile radios for Rail Fleet",
+  "buyer": "Metrolinx",
+  "supplier": "JVCKENWOOD Canada Inc.",
+  "theme": "Communications & networks",
+  "awarded_value": 233941.5,
+  "awarded_date": "2022-07-11",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "2222160959",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2222160959/abstract?origin=0"
+ },
+ {
+  "id": "5d5708b0-edda-4062-968f-6664e63b23fb",
+  "title": "PT-2021-RCSC-453: Replacement of Switch Clearing Devices",
+  "buyer": "Metrolinx",
+  "supplier": "RAELKON Teams",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 236685.0,
+  "awarded_date": "2022-06-20",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "2164976517",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2164976517/abstract?origin=0"
+ },
+ {
+  "id": "4c9e1ee4-cf53-4ca7-a9b4-1c6d3cc698a3",
+  "title": "PT-2021-BUSF-442*:Annual Inspection & Calibration of Air Quality Monitoring Syst",
+  "buyer": "Metrolinx",
+  "supplier": "The Armstrong Monitoring Corporation",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 90000.0,
+  "awarded_date": "2022-05-25",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "2154190556",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2154190556/abstract?origin=0"
+ },
+ {
+  "id": "ef849828-5dc2-448d-b546-0cf679a5faea",
+  "title": "RFP-2021-ITPM-298: Customer Experience Technologies",
+  "buyer": "Metrolinx",
+  "supplier": "EPAM Systems Canada, Ltd",
+  "theme": "Data, software & planning",
+  "awarded_value": 6556119.0,
+  "awarded_date": "2022-03-16",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "1939461913",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1939461913/abstract?origin=0"
+ },
+ {
+  "id": "142a05e2-3ef9-465f-83d1-c18101220039",
+  "title": "PT-2021-WFOW-425 : Monitoring, Analyzing and Recommending Electrical Usage",
+  "buyer": "Metrolinx",
+  "supplier": "Edgecom energy",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 60370.0,
+  "awarded_date": "2022-03-04",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "2095747866",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2095747866/abstract?origin=0"
+ },
+ {
+  "id": "881971d1-6fe5-4a3e-8e6f-0977b62d5e3e",
+  "title": "PTM-2021-ITIN-115: The Provision of Google Maps Platform – One (1) year",
+  "buyer": "Metrolinx",
+  "supplier": "Onix Networking Canada Inc",
+  "theme": "Data, software & planning",
+  "awarded_value": 40787.19,
+  "awarded_date": "2022-02-22",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "2105609677",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2105609677/abstract?origin=0"
+ },
+ {
+  "id": "28b13039-b41c-4fdc-8309-b408d8053394",
+  "title": "PT-2021-PVMD-408:Supply of Commercial Off-The Shelf Device (Presto)",
+  "buyer": "Metrolinx",
+  "supplier": "Nova Networks Inc.",
+  "theme": "Fare collection & payments",
+  "awarded_value": 3674517.2,
+  "awarded_date": "2022-02-03",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "2029119816",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/2029119816/abstract?origin=0"
+ },
+ {
+  "id": "f336f1c0-baaf-402b-bd7d-ef0914f21f56",
+  "title": "Maintenance and development of the road information dissemination and winter road viability monitoring systems",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "MOMENTUM TECHNOLOGIES INC.",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 6056679.8,
+  "awarded_date": "2022-01-21",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "ocds-ec9k95-1536317:540687",
+  "link": null
+ },
+ {
+  "id": "8fd30172-5b43-4e71-8aee-c90c441d6d47",
+  "title": "RFP-2020-ITIN-263: Provision of Marketing Automation and On The Go Alerts System",
+  "buyer": "Metrolinx",
+  "supplier": "Accenture",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 2182500.0,
+  "awarded_date": "2021-11-24",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "1765603617",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1765603617/abstract?origin=0"
+ },
+ {
+  "id": "8e666a84-5622-4a66-bc2e-9b9167dbd433",
+  "title": "PTM-2021-IFSS-089 : Supply & Delivery of Avocor 17 Open Pluggable Slot PC GEN10",
+  "buyer": "Metrolinx",
+  "supplier": "Xerox IT Solutions Canada Ltd.",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 78674.5,
+  "awarded_date": "2021-07-27",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "1857387644",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1857387644/abstract?origin=0"
+ },
+ {
+  "id": "8f3f7216-a27b-4d22-8a3d-bfa8d20e782c",
+  "title": "RFP-2020-ITIN-188: Parking Fare Ticket Processing System",
+  "buyer": "Metrolinx",
+  "supplier": "Gtechna Inc.",
+  "theme": "Fare collection & payments",
+  "awarded_value": 1250381.0,
+  "awarded_date": "2021-06-30",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "1519572105",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1519572105/abstract?origin=0"
+ },
+ {
+  "id": "97429a7d-1843-4124-9fbc-f02fc828078b",
+  "title": "RFP-2020-PVMD-207:Supply, Installation, Maintenance&Commissioning of PRESTO TVMs",
+  "buyer": "Metrolinx",
+  "supplier": "Sigma Spa",
+  "theme": "Fare collection & payments",
+  "awarded_value": 30989085.0,
+  "awarded_date": "2021-06-18",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "1562550956",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1562550956/abstract?origin=0"
+ },
+ {
+  "id": "d86a7b17-92c8-48cd-990a-179f6afda7d5",
+  "title": "RQQ-2020-CMCE-438:Ontario Business & Customer Demographic & Psychographic Data",
+  "buyer": "Metrolinx",
+  "supplier": "Manifold Data Mining Inc.",
+  "theme": "Data, software & planning",
+  "awarded_value": 348269.34,
+  "awarded_date": "2021-05-28",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "1704886960",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1704886960/abstract?origin=0"
+ },
+ {
+  "id": "844ff983-de11-4511-8adc-8ebcbb2be124",
+  "title": "PTM-2021-ITIN-082: Supply and Delivery of LCD 55” Outdoor Display Monitors",
+  "buyer": "Metrolinx",
+  "supplier": "RAELKON Teams",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 115218.0,
+  "awarded_date": "2021-05-21",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "1790856216",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1790856216/abstract?origin=0"
+ },
+ {
+  "id": "5348d019-25e7-4201-a5e4-18c98d528822",
+  "title": "PT-2020-ITIN-251: Provision of Cloudera Data Hub Edition Licenses",
+  "buyer": "Metrolinx",
+  "supplier": "Accenture",
+  "theme": "Data, software & planning",
+  "awarded_value": 254652.64,
+  "awarded_date": "2021-03-03",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "1712633458",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1712633458/abstract?origin=0"
+ },
+ {
+  "id": "52ab7b8e-88b4-4f2d-a1a1-0cc6536a1d7c",
+  "title": "PTM-2020-ITIN-072: Provision of Google Maps Platform - One (1) Year",
+  "buyer": "Metrolinx",
+  "supplier": "Onix Networking Canada Inc",
+  "theme": "Data, software & planning",
+  "awarded_value": 18497.89,
+  "awarded_date": "2021-02-02",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "1647290208",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1647290208/abstract?origin=0"
+ },
+ {
+  "id": "b3a3f5e1-c101-4f0c-9b52-f51cd9dbd3b0",
+  "title": "PT-2019-RCDV-944: Supply, Installation and Management of Abloy High Security Pro",
+  "buyer": "Metrolinx",
+  "supplier": "Life Safety Solutions Incorporated",
+  "theme": "Video, sensing & security",
+  "awarded_value": 1398961.05,
+  "awarded_date": "2020-12-24",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "1573403157",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1573403157/abstract?origin=0"
+ },
+ {
+  "id": "49eb228a-1279-4ab4-ba3e-9248f51ecb66",
+  "title": "RFP-2020-ITIN-187: Safety Management Information System",
+  "buyer": "Metrolinx",
+  "supplier": "Cority Software Inc",
+  "theme": "Data, software & planning",
+  "awarded_value": 2194546.0,
+  "awarded_date": "2020-12-23",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "1399818055",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1399818055/abstract?origin=0"
+ },
+ {
+  "id": "209d6ef1-caec-4c36-a37c-779474aeca28",
+  "title": "RFP-2020-ECDV-182: Provision of A Utility Data Management Solution",
+  "buyer": "Metrolinx",
+  "supplier": "Ameresco Asset Sustainability Group Inc.",
+  "theme": "Data, software & planning",
+  "awarded_value": 780700.0,
+  "awarded_date": "2020-12-11",
+  "industry": [
+   "AI",
+   "Data & Software"
+  ],
+  "source_id": "1493139019",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1493139019/abstract?origin=0"
+ },
+ {
+  "id": "29d3662e-5ec3-4e40-b07a-fe8a9bfee1e3",
+  "title": "RFP-2019-PMUN-127: Provision of Network Service Provider",
+  "buyer": "Metrolinx",
+  "supplier": "Accenture",
+  "theme": "Communications & networks",
+  "awarded_value": 5330553.45,
+  "awarded_date": "2020-11-19",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "1253940107",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1253940107/abstract?origin=0"
+ },
+ {
+  "id": "2f4eed92-8eb5-4018-90b7-d90210f74507",
+  "title": "PTM-2020-ITIN-063:Supply&Delivery Centre Security Software IndigoVision One Year",
+  "buyer": "Metrolinx",
+  "supplier": "Principal Access Security Solutions Inc.",
+  "theme": "Video, sensing & security",
+  "awarded_value": 20816.0,
+  "awarded_date": "2020-11-13",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "1565841851",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1565841851/abstract?origin=0"
+ },
+ {
+  "id": "69c9b831-4a64-4186-b005-97a65aba81ce",
+  "title": "RQQ-2019-RCSC-410:Electrical, Mechanical & Communications Asset Inspn. & Maint.",
+  "buyer": "Metrolinx",
+  "supplier": "Net Electric Ltd.",
+  "theme": "Infrastructure monitoring & inspection",
+  "awarded_value": 2565987.45,
+  "awarded_date": "2020-10-16",
+  "industry": [
+   "Infrastructure Monitoring",
+   "Sensors"
+  ],
+  "source_id": "1399818068",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1399818068/abstract?origin=0"
+ },
+ {
+  "id": "c42db388-e860-40fa-b90f-1d08de42a4c6",
+  "title": "PT-2020-BUSF-126: Supply&Delivery: Smartire Transmitters - Various Metrolinx Fac",
+  "buyer": "Metrolinx",
+  "supplier": "Vision Truck Group",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 88900.0,
+  "awarded_date": "2020-08-12",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "1424265608",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1424265608/abstract?origin=0"
+ },
+ {
+  "id": "3da71fe3-a907-4fdf-b3db-34f7e77bdd66",
+  "title": "Supply and installation of new traffic control devices at Council-approved signalized intersections within the City of Toronto. Award to 31 December 2021. Total $2,697,643 incl. taxes; $2,429,311 net of HST recoveries.",
+  "buyer": "City of Toronto",
+  "supplier": "GUILD ELECTRIC LIMITED",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 2387295.0,
+  "awarded_date": "2020-05-28",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "2372019000",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%22237-2019%22"
+ },
+ {
+  "id": "49b929b2-d3a0-496f-915a-03cbd73a5734",
+  "title": "PT-2019-ITIN-938:Supply&Delivery Manufactured Custom Antenna Cables for GO Buses",
+  "buyer": "Metrolinx",
+  "supplier": "Optimum Tech Solutions",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 218160.0,
+  "awarded_date": "2020-04-22",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "1264885112",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1264885112/abstract?origin=0"
+ },
+ {
+  "id": "a974bd47-eb2c-4286-b4e2-e053df0e6ada",
+  "title": "PTM-2019-INPA-030:UPS Montoring for Fare System Technology Enablement (FSTE) Nwk",
+  "buyer": "Metrolinx",
+  "supplier": "Graybar Canada",
+  "theme": "Fare collection & payments",
+  "awarded_value": 109340.73,
+  "awarded_date": "2020-03-05",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "1253940115",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1253940115/abstract?origin=0"
+ },
+ {
+  "id": "cd7607aa-5a0d-4bdf-abf2-4d3dfbb98493",
+  "title": "PT-2019-IFSS-918 : Supply and Delivery of CCTV Spare Parts",
+  "buyer": "Metrolinx",
+  "supplier": "Clcokwork Systems Inc",
+  "theme": "Video, sensing & security",
+  "awarded_value": 205799.44,
+  "awarded_date": "2020-02-14",
+  "industry": [
+   "Sensors",
+   "Video Surveillance"
+  ],
+  "source_id": "1240082369",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1240082369/abstract?origin=0"
+ },
+ {
+  "id": "70a21c0e-f927-4f53-aaba-4c7e4d26988e",
+  "title": "RFP-2019-PVMD-138:Corrective Maintenance for Metrolinx Fare Mgmt Devices",
+  "buyer": "Metrolinx",
+  "supplier": "Accenture",
+  "theme": "Fare collection & payments",
+  "awarded_value": 43669038.88,
+  "awarded_date": "2020-02-12",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "1061117979",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1061117979/abstract?origin=0"
+ },
+ {
+  "id": "01db3ed0-d6ee-41ca-a2bb-f67d7557e79d",
+  "title": "PTM-2019-RSDV-022: Supply and Delivery of Kenwood VHF Radios & Ancillary Equip.",
+  "buyer": "Metrolinx",
+  "supplier": "JVCKENWOOD Canada Inc.",
+  "theme": "Communications & networks",
+  "awarded_value": 49410.0,
+  "awarded_date": "2020-02-11",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "1240066302",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1240066302/abstract?origin=0"
+ },
+ {
+  "id": "0607ba56-7920-4397-88fc-4a6a5c4b6d63",
+  "title": "PT-2019-ITIN-889 : Provision of NEC Indoor 48” Monitors and Inserts",
+  "buyer": "Metrolinx",
+  "supplier": "Xerox IT Solutions Canada Ltd.",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 226123.17,
+  "awarded_date": "2020-01-16",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "1202808509",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1202808509/abstract?origin=0"
+ },
+ {
+  "id": "357bacdd-263f-49e0-9852-2908d100812b",
+  "title": "RFP-2019-POPD-136:Car Matching and Trip Tracking Tool",
+  "buyer": "Metrolinx",
+  "supplier": "RideShark Corporation",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": null,
+  "awarded_date": "2019-12-18",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "1038736119",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1038736119/abstract?origin=0"
+ },
+ {
+  "id": "a28e27ba-80fa-48f8-8fb1-7eb5202d2c7e",
+  "title": "RQQ-2019-RCSC-295: Rail Traffic Control Support Services-FaultControl,BackOffice",
+  "buyer": "Metrolinx",
+  "supplier": "RailTerm Systems Inc.",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 20823571.47,
+  "awarded_date": "2019-12-16",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "1125633058",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1125633058/abstract?origin=0"
+ },
+ {
+  "id": "26186fd3-e85e-447b-95d5-2ad8e8a70a86",
+  "title": "PT-2019-RBEX-833: Provision & Installation of Electric Bus Power Feeds",
+  "buyer": "Metrolinx",
+  "supplier": "Duplex Electrical Ltd.",
+  "theme": "Fleet electrification & charging",
+  "awarded_value": 176500.0,
+  "awarded_date": "2019-12-09",
+  "industry": [
+   "EV Charging",
+   "Fleet Management"
+  ],
+  "source_id": "1169809260",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1169809260/abstract?origin=0"
+ },
+ {
+  "id": "57cd270e-d0dc-4bc8-9204-63dc07bcd06d",
+  "title": "Provision of Automated Speed Enforcement Services",
+  "buyer": "City of Toronto",
+  "supplier": "Redflex Traffic Systems (Canada) Ltd.",
+  "theme": "Automated enforcement",
+  "awarded_value": 12619448.15,
+  "awarded_date": "2019-11-26",
+  "industry": [
+   "Enforcement Systems",
+   "License Plate Recognition"
+  ],
+  "source_id": "9148190048",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%229148-19-0048%22"
+ },
+ {
+  "id": "76d628dd-62fc-4c1f-8e1a-19463b731dbd",
+  "title": "PT-2019-ITIN-846:Provision of PA system for USBT delivery",
+  "buyer": "Metrolinx",
+  "supplier": "r2p Canada Inc.",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 90795.0,
+  "awarded_date": "2019-11-22",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "1176292614",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1176292614/abstract?origin=0"
+ },
+ {
+  "id": "af7db0f8-ecf1-42b8-a775-30e274641470",
+  "title": "PT-2019-ITIN-845: Provision of Driver Turrets for USBT delivery",
+  "buyer": "Metrolinx",
+  "supplier": "Xerox IT Solutions Canada Ltd.",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 38539.0,
+  "awarded_date": "2019-11-22",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "1176292611",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1176292611/abstract?origin=0"
+ },
+ {
+  "id": "b96c4d62-3e8d-4742-bf1e-6ea1513fcac6",
+  "title": "PT-2019-ITIN-844 : Provision of Drivers Intercom for USBT delivery",
+  "buyer": "Metrolinx",
+  "supplier": "Minelec Limited",
+  "theme": "Vehicle telematics & on-board systems",
+  "awarded_value": 43208.0,
+  "awarded_date": "2019-11-22",
+  "industry": [
+   "Fleet Management"
+  ],
+  "source_id": "1176292612",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1176292612/abstract?origin=0"
+ },
+ {
+  "id": "0cb62942-8229-4a48-91b0-e8dd42b97996",
+  "title": "PT-2019-RBEX-872: Supply&Delivery Stationary & Trailer-Mounted Radar Speed Signs",
+  "buyer": "Metrolinx",
+  "supplier": "Traffic Logix Corporation",
+  "theme": "Automated enforcement",
+  "awarded_value": 68625.0,
+  "awarded_date": "2019-11-11",
+  "industry": [
+   "Enforcement Systems",
+   "License Plate Recognition"
+  ],
+  "source_id": "1166306503",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1166306503/abstract?origin=0"
+ },
+ {
+  "id": "98ab644d-f6f2-4aa0-8dc1-816080c33493",
+  "title": "PT-2019-ITIN-802: Ethernet Cable Replacement - Cisco Fare System Enablement",
+  "buyer": "Metrolinx",
+  "supplier": "Connex Telecommunications Inc.",
+  "theme": "Fare collection & payments",
+  "awarded_value": 764247.0,
+  "awarded_date": "2019-10-01",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "1112071419",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1112071419/abstract?origin=0"
+ },
+ {
+  "id": "1e4b5edc-19d2-4025-a161-2160ecfe5259",
+  "title": "PT-2019-ITIN-841:Supply of Turrets for Rail Traffic Control",
+  "buyer": "Metrolinx",
+  "supplier": "CDW Canada Corp.",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 72796.0,
+  "awarded_date": "2019-09-23",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "1131945420",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1131945420/abstract?origin=0"
+ },
+ {
+  "id": "0c5dfa96-ba53-4ccd-92bc-c50cf0b9069d",
+  "title": "PT-2019-PVMD-734: Supply of Point of Sale and Mobile Devices",
+  "buyer": "Metrolinx",
+  "supplier": "Nova Networks Inc.",
+  "theme": "Fare collection & payments",
+  "awarded_value": 17208605.15,
+  "awarded_date": "2019-09-11",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "1061123816",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1061123816/abstract?origin=0"
+ },
+ {
+  "id": "1f391f04-c6b9-4321-b7e1-6f323a2bb92c",
+  "title": "PT-2019-ITIN-763:Provide IE Switches,Racks,Transceivers-Fare System Tech. Enable",
+  "buyer": "Metrolinx",
+  "supplier": "Nova Networks Inc.",
+  "theme": "Fare collection & payments",
+  "awarded_value": 55828.0,
+  "awarded_date": "2019-06-27",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "1048410352",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/1048410352/abstract?origin=0"
+ },
+ {
+  "id": "cd52fc01-4e81-49dd-abee-402df3dff9fc",
+  "title": "Non-Exclusive Supply and Delivery of Traffic Control Equipment",
+  "buyer": "City of Toronto",
+  "supplier": "Orange Traffic Inc",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 652994.0,
+  "awarded_date": "2019-06-06",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "6029190064",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%226029-19-0064%22"
+ },
+ {
+  "id": "fdd13dce-e60f-41d7-a6b3-c6bdcee291a0",
+  "title": "Non-Exclusive Supply and Delivery of Traffic Control Equipment",
+  "buyer": "City of Toronto",
+  "supplier": "Econolite Canada Inc",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 482806.0,
+  "awarded_date": "2019-06-06",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "6029190064",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%226029-19-0064%22"
+ },
+ {
+  "id": "6955204f-cfcd-435b-9be8-e9836467c9af",
+  "title": "PT-2018-ITIN-699:For the Provision of Cisco Network Equipment for Fare System",
+  "buyer": "Metrolinx",
+  "supplier": "Xerox IT Solutions Canada Ltd.",
+  "theme": "Fare collection & payments",
+  "awarded_value": 682764.99,
+  "awarded_date": "2019-03-22",
+  "industry": [
+   "Smart Ticketing"
+  ],
+  "source_id": "966922513",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/966922513/abstract?origin=0"
+ },
+ {
+  "id": "d9e80320-9684-46d6-8c79-f6765b71c60e",
+  "title": "PT-2018-ITOP-672:For the Provision of Cisco Interactive Experience Client 4650",
+  "buyer": "Metrolinx",
+  "supplier": "CDW Canada Corp.",
+  "theme": "Passenger information & wayfinding",
+  "awarded_value": 81205.0,
+  "awarded_date": "2019-02-28",
+  "industry": [
+   "Displays",
+   "Passenger Information"
+  ],
+  "source_id": "952869605",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/952869605/abstract?origin=0"
+ },
+ {
+  "id": "6a62a4c1-74bc-4d69-bf6f-b09603a6da29",
+  "title": "Non-Exclusive Supply of Traffic Data Collection Services at various requested locations throughout the City of Toronto",
+  "buyer": "City of Toronto",
+  "supplier": "Ontario Traffic Inc.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 639760.0,
+  "awarded_date": "2019-01-01",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "9148187135",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%229148-18-7135%22"
+ },
+ {
+  "id": "927ed2b2-0014-4278-9baf-70456affad3d",
+  "title": "PT-2018-STNS-557:For Building Automation and Control Upgrades at Hamilton Stn",
+  "buyer": "Metrolinx",
+  "supplier": "Johnson Controls Canada LP",
+  "theme": "Facilities & building systems",
+  "awarded_value": 289483.0,
+  "awarded_date": "2018-12-27",
+  "industry": [
+   "Building Systems"
+  ],
+  "source_id": "839927766",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/839927766/abstract?origin=0"
+ },
+ {
+  "id": "ae34fa17-826c-4580-a761-cea0c6654346",
+  "title": "Non-exclusive supply, delivery and warranty of Primary or Secondary Self-contained, Solar-powered, Wireless School Zone Flashing Beacons",
+  "buyer": "City of Toronto",
+  "supplier": "Fortran Traffic Systems Ltd.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 2618438.0,
+  "awarded_date": "2018-10-31",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "1202180299",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%221202-18-0299%22"
+ },
+ {
+  "id": "a757b81c-2484-4ea2-bd67-f8b94c84cdfb",
+  "title": "Installation of new traffic control devices at various locations in the City of Toronto, from date of award to 31 December 2018.",
+  "buyer": "City of Toronto",
+  "supplier": "Guild Electric Ltd.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 839799.99,
+  "awarded_date": "2018-10-29",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "2202018000",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%22220-2018%22"
+ },
+ {
+  "id": "dc31fda6-79e7-42e5-acdd-8b82552c724a",
+  "title": "For the non-exclusive supply and delivery Traffic Control Components to various Purchasing and Materials Management (Stores) locations",
+  "buyer": "City of Toronto",
+  "supplier": "Fortran Traffic Systems",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 813655.5,
+  "awarded_date": "2018-07-26",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "1205180047",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%221205-18-0047%22"
+ },
+ {
+  "id": "0a997eab-1206-44e8-89ec-c20e91120e7b",
+  "title": "On-demand manual traffic counts and automatic traffic surveys, Mauricie–Centre-du-Québec",
+  "buyer": "Québec – Ministère des Transports",
+  "supplier": "WSP Canada inc.",
+  "theme": "Traffic data & modelling",
+  "awarded_value": 229962.0,
+  "awarded_date": "2018-07-20",
+  "industry": [
+   "Traffic Analysis Systems",
+   "Traffic Management"
+  ],
+  "source_id": "ocds-ec9k95-1158801:1621783",
+  "link": null
+ },
+ {
+  "id": "6f2193cb-f89c-4859-9089-c3f2bd7da263",
+  "title": "PT-2017-RAD-309:UPS System for Radio Tower Sites & Coverage Enhancement Upgrade",
+  "buyer": "Metrolinx",
+  "supplier": "CDW Canada Corp.",
+  "theme": "Communications & networks",
+  "awarded_value": 224466.0,
+  "awarded_date": "2018-02-22",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "source_id": "646023254",
+  "link": "https://www.metrolinx.merx.com/public/solicitations/646023254/abstract?origin=0"
+ },
+ {
+  "id": "72c0e7fe-1d98-49e2-a5cc-1d696855f7aa",
+  "title": "Adaptive Traffic Signal Control System (Smart Signals) Pilot",
+  "buyer": "City of Toronto",
+  "supplier": "TransCore ITS, LLC",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 1750023.0,
+  "awarded_date": "2017-10-11",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "1205175043",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%221205-17-5043%22"
+ },
+ {
+  "id": "cccf34a2-ca3e-4e06-92eb-91d75884a5c3",
+  "title": "on-exclusive Supply and Delivery of Traffic Control Equipment",
+  "buyer": "City of Toronto",
+  "supplier": "Orange Traffic Inc",
+  "theme": "Rail signalling & train control",
+  "awarded_value": 734087.5,
+  "awarded_date": "2017-05-11",
+  "industry": [
+   "Rail Systems",
+   "Railway Signaling"
+  ],
+  "source_id": "1212170055",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%221212-17-0055%22"
+ },
+ {
+  "id": "f308775a-3e6a-4f73-94d1-99bfda966cc8",
+  "title": "For the non-exclusive supply and delivery Traffic Control Equipment",
+  "buyer": "City of Toronto",
+  "supplier": "Econolite Canada Inc",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 994989.38,
+  "awarded_date": "2017-05-11",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "1212170055",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%221212-17-0055%22"
+ },
+ {
+  "id": "0b653676-5db6-4eb0-8c41-c9e0284ad33b",
+  "title": "Tender Call No. 2-2016, Contract 17TM-01TP: Maintenance and Operation of Electrical Traffic Control and Related Devices within the City of Toronto, 1 February 2017 to 31 March 2021. Guild Electric was the lowest compliant bidder at $62,186,648 ($63,281,130 net of HST recoveries), split $30,295,730 o",
+  "buyer": "City of Toronto",
+  "supplier": "Guild Electric Ltd.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 62186647.72,
+  "awarded_date": "2017-02-01",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "2201600000",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%222-2016%22"
+ },
+ {
+  "id": "fcf50400-99b0-4cd3-a0e8-557f336d87d6",
+  "title": "70 Red Light Cameras",
+  "buyer": "City of Toronto",
+  "supplier": "Traffipax LLC",
+  "theme": "Automated enforcement",
+  "awarded_value": 10553538.3,
+  "awarded_date": "2016-06-23",
+  "industry": [
+   "Enforcement Systems",
+   "License Plate Recognition"
+  ],
+  "source_id": "9148155000",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%229148-15-5000%22"
+ },
+ {
+  "id": "e346adaf-d331-4263-b618-6e31cd0e043d",
+  "title": "Non-exclusive Supply and Delivery of Traffic Control Components",
+  "buyer": "City of Toronto",
+  "supplier": "Fortran Traffic Systems Ltd.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 304360.88,
+  "awarded_date": "2015-02-11",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "1205143200",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%221205-14-3200%22"
+ },
+ {
+  "id": "10bc7138-2f33-4777-91fb-3f783b10abae",
+  "title": "To supply the necessary traffic recording equipment and labour to collect traffic counts at various locations throughout the City of Toronto",
+  "buyer": "City of Toronto",
+  "supplier": "Ontario Traffic Inc.",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 1110895.0,
+  "awarded_date": "2014-02-13",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "9148137276",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%229148-13-7276%22"
+ },
+ {
+  "id": "9b9b2464-33c4-44bd-9924-fbc5c0af666b",
+  "title": "Traffic Management Center, Situation Control Room operations",
+  "buyer": "City of Toronto",
+  "supplier": "Fortran Traffic Systems Limited",
+  "theme": "Traffic signals & intersections",
+  "awarded_value": 1683883.2,
+  "awarded_date": "2013-01-16",
+  "industry": [
+   "Traffic Management",
+   "Traffic Signals"
+  ],
+  "source_id": "9118127168",
+  "link": "https://www.google.com/search?q=site%3Atoronto.ca+%229118-12-7168%22"
+ }
+]

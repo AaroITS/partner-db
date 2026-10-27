@@ -1,10 +1,6 @@
 import type { Metadata } from "next";
-import {
-  createClient,
-  companyKey,
-  type Contract,
-  type Partner,
-} from "@/lib/supabase/server";
+import { companyKey, type Contract, type Partner } from "@/lib/supabase/server";
+import { contracts as allContracts, partners as allPartners } from "@/lib/data";
 import {
   ACCENT,
   ACCENT_TEXT,
@@ -26,12 +22,7 @@ import {
   type Param,
 } from "@/components/filters";
 import { ArrowOut } from "@/components/arrow";
-import {
-  About,
-  CardTitle,
-  EmptyState,
-  ErrorState,
-} from "@/components/page-parts";
+import { About, CardTitle, EmptyState } from "@/components/page-parts";
 import { formatDate, formatMoney } from "@/lib/format";
 
 /* Cached for an hour. Awarded contracts are historical — they change only
@@ -66,37 +57,14 @@ export default async function Contracts({
   searchParams: Promise<Search>;
 }) {
   const params = await searchParams;
-  const supabase = createClient();
 
-  // Partners are fetched too, so a supplier name can link to its website.
-  const [contractRes, partnerRes] = await Promise.all([
-    supabase
-      .from("contracts")
-      .select(
-        "id, title, buyer, supplier, theme, awarded_value, awarded_date, industry, source_id, link",
-      )
-      .order("awarded_date", { ascending: false }),
-    supabase.from("partners").select("name, website"),
-  ]);
-
-  if (contractRes.error) {
-    return (
-      <ErrorState
-        message={`Could not load contracts: ${contractRes.error.message}`}
-      />
-    );
-  }
-
-  const all = (contractRes.data ?? []) as Contract[];
+  const all: Contract[] = allContracts;
 
   // Supplier name -> that partner's website, keyed on the normalised name so
   // "MIOVISION TECHNOLOGIES INCORPORATED" finds the partner called
   // "Miovision". Exact comparison, for the reason given in server.ts.
   const siteOf = new Map<string, string>();
-  for (const p of (partnerRes.data ?? []) as Pick<
-    Partner,
-    "name" | "website"
-  >[]) {
+  for (const p of allPartners) {
     const key = companyKey(p.name);
     if (key && p.website) siteOf.set(key, p.website);
   }
