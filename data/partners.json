@@ -897,7 +897,7 @@
   "industry": [
    "Business Support"
   ],
-  "about": "Invest Ottawa helps accelerate your growth and success, leverage the best programs, people and places, and make your mark in Ottawa, a global tech hub and collaborative business community.",
+  "about": "Invest Ottawa helps accelerate your growth and success, leverage the best programs, people and places, and make your mark in Ottawa, a global tech hub and collaborative business community. ",
   "projects": null,
   "website": "https://www.investottawa.ca/"
  },
@@ -939,7 +939,7 @@
    "Business Support",
    "ITS"
   ],
-  "about": "ITS Canada is a non-profit organization that promotes the application of advanced and emerging technologies in transportation to improve mobility, safety, efficiency and environment.",
+  "about": "ITS Canada is a non-profit organization that promotes the application of advanced and emerging technologies in transportation to improve mobility, safety, efficiency and environment. ",
   "projects": null,
   "website": "https://www.itscanada.ca/"
  },
@@ -1242,7 +1242,7 @@
    "Traffic Signal Management",
    "Traffic Management"
   ],
-  "about": "Miovision provides cities with modern tools to fix today’s traffic problems. They offer solutions that collect multimodal traffic data and uncover actionable insights, helping municipalities get more out of their road network.",
+  "about": "Miovision provides cities with modern tools to fix today’s traffic problems. They offer solutions that collect multimodal traffic data and uncover actionable insights, helping municipalities get more out of their road network. ",
   "projects": null,
   "website": "https://miovision.com/"
  },
@@ -1419,6 +1419,18 @@
   "about": "OVIN (Ontario Vehicle Innovation Network) is accelerating the development and commercialization of next generation electric, connected and autonomous vehicle and mobility technologies and supporting Ontario’s role as the manufacturing hub of Canada, while leveraging critical minerals development in Ontario’s North.",
   "projects": null,
   "website": "https://www.ovinhub.ca/"
+ },
+ {
+  "id": "1729ec7a-c925-4035-935d-fa71d0d52b0a",
+  "name": "Özaltin Insaat",
+  "country": "Türkiye",
+  "org_type": "Türkiye's Leading Infrastructure Contractors",
+  "industry": [
+   "Infrastructure construction"
+  ],
+  "about": null,
+  "projects": "Gebze - Orhangazi - İzmir Motorway, Palu - Genç - Muş Railway,",
+  "website": "https://www.ozaltin.com/en/"
  },
  {
   "id": "491b4110-61e5-4402-9a1a-d8cfd0060e28",
@@ -1814,7 +1826,7 @@
    "Sensors",
    "IoT"
   ],
-  "about": "SMATS specializes in smart transportation data collection and analysis.\n\nTheir technology includes next-generation IoT sensors and big traffic data, and an AI-powered analytic platform that brings value-add visualization and insights.\n\nFrom wait time reduction to origin-destination studies, they provide intelligent transportation insights and solutions to a wide range of clients including transportation and traffic departments, port authorities, consulting firms, and academia",
+  "about": "SMATS specializes in smart transportation data collection and analysis.\n\nTheir technology includes next-generation IoT sensors and big traffic data, and an AI-powered analytic platform that brings value-add visualization and insights.\n\nFrom wait time reduction to origin-destination studies, they provide intelligent transportation insights and solutions to a wide range of clients including transportation and traffic departments, port authorities, consulting firms, and academia\n",
   "projects": null,
   "website": "https://www.smatstraffic.com/"
  },
@@ -1968,6 +1980,19 @@
   "website": "https://www.tasyapi.com/en/"
  },
  {
+  "id": "09d8e4f1-8f6b-46ae-9b61-99bda8a027e3",
+  "name": "TÉLÉCON INC.",
+  "country": "Canada",
+  "org_type": "Canadian Smart Mobility companies",
+  "industry": [
+   "IoT",
+   "Telecom"
+  ],
+  "about": "Planning, design and obtaining of permits for all elements related to telecommunications networks. Locating of underground utilities to allow for safe underground excavations.",
+  "projects": null,
+  "website": "https://telecon.com/en/"
+ },
+ {
   "id": "1a92913f-ba4a-42c9-84e6-c78f9f1986b7",
   "name": "The Armstrong Monitoring Corporation",
   "country": "Canada",
@@ -2042,19 +2067,6 @@
   "website": "https://transnomis.com/"
  },
  {
-  "id": "09d8e4f1-8f6b-46ae-9b61-99bda8a027e3",
-  "name": "TÉLÉCON INC.",
-  "country": "Canada",
-  "org_type": "Canadian Smart Mobility companies",
-  "industry": [
-   "IoT",
-   "Telecom"
-  ],
-  "about": "Planning, design and obtaining of permits for all elements related to telecommunications networks. Locating of underground utilities to allow for safe underground excavations.",
-  "projects": null,
-  "website": "https://telecon.com/en/"
- },
- {
   "id": "1e7bc354-750b-4677-8a4e-7ed22aa9f804",
   "name": "UNA IOT",
   "country": "Türkiye",
@@ -2077,7 +2089,7 @@
    "Sensors",
    "Enforcement Systems"
   ],
-  "about": "Velociti Innovations is revolutionizing traffic management and intelligent transportation systems with advanced sensors, AI-powered object tracking and classification, autonomous system integration, and real-time data processing using state-of-the-art technology.",
+  "about": "Velociti Innovations is revolutionizing traffic management and intelligent transportation systems with advanced sensors, AI-powered object tracking and classification, autonomous system integration, and real-time data processing using state-of-the-art technology. ",
   "projects": null,
   "website": "https://www.velociti-innovations.com/"
  },
@@ -2176,17 +2188,5 @@
   "about": null,
   "projects": null,
   "website": "https://www.celiklerholding.com/en"
- },
- {
-  "id": "1729ec7a-c925-4035-935d-fa71d0d52b0a",
-  "name": "Özaltin Insaat",
-  "country": "Türkiye",
-  "org_type": "Türkiye's Leading Infrastructure Contractors",
-  "industry": [
-   "Infrastructure construction"
-  ],
-  "about": null,
-  "projects": "Gebze - Orhangazi - İzmir Motorway, Palu - Genç - Muş Railway,",
-  "website": "https://www.ozaltin.com/en/"
  }
 ]

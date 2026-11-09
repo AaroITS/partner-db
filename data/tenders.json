@@ -62,7 +62,7 @@
   "country": "Canada",
   "organisation": "Transport Canada",
   "deadline": "2026-09-18",
-  "industry": [],
+  "industry": null,
   "link": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-619-77529222"
  },
  {
@@ -78,18 +78,6 @@
   "link": "https://www.merx.com/public/solicitations/4080756255/abstract?origin=0"
  },
  {
-  "id": "00a6bae1-10e6-4a6b-8200-7f7ff6ad2711",
-  "title": "Request for Proposals for Red Light Camera System Supply & Maintenance Services",
-  "country": "Canada",
-  "organisation": "City of Toronto",
-  "deadline": "2026-09-30",
-  "industry": [
-   "Traffic Signals",
-   "Enforcement Systems"
-  ],
-  "link": "www.toronto.ca/business-economy/doing-business-with-the-city/searching-bidding-on-city-contracts/toronto-bids-portal/#all/d004f6eb-b219-4555-b7e1-02c1e7cbf9a5"
- },
- {
   "id": "3b001615-36a1-45e3-aa9e-01f87895e92b",
   "title": "Invitation to Qualify to Canadian Government’s Artificial Intelligence Source List",
   "country": "Canada",
@@ -99,6 +87,18 @@
    "AI"
   ],
   "link": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ws4286933967-doc4822970058"
+ },
+ {
+  "id": "00a6bae1-10e6-4a6b-8200-7f7ff6ad2711",
+  "title": "Request for Proposals for Red Light Camera System Supply & Maintenance Services ",
+  "country": "Canada",
+  "organisation": "City of Toronto",
+  "deadline": "2026-09-30",
+  "industry": [
+   "Traffic Signals",
+   "Enforcement Systems"
+  ],
+  "link": "www.toronto.ca/business-economy/doing-business-with-the-city/searching-bidding-on-city-contracts/toronto-bids-portal/#all/d004f6eb-b219-4555-b7e1-02c1e7cbf9a5"
  },
  {
   "id": "6f9d485a-ce9d-4408-a84c-a4759c9d92b3",
@@ -125,7 +125,7 @@
  },
  {
   "id": "c3414691-9d3c-4762-b37c-3fa69d2795e7",
-  "title": "Integrated Transportation Asset Management Solution",
+  "title": "Integrated Transportation Asset Management Solution ",
   "country": "Canada",
   "organisation": "Government of Ontario",
   "deadline": "2026-10-31",
@@ -134,5 +134,39 @@
    "Fleet Management"
   ],
   "link": "https://ontariotenders.app.jaggaer.com/esop/toolkit/opportunity/current/list.si?reset=true&resetstored=true&userAct=changeLangIndex&language=en_CA&_ncp=1790160295058.83140-1#fh"
+ },
+ {
+  "id": "94e111e8-8e73-4e42-b8ce-18aad7c450c5",
+  "title": "RFP Integrated Transportation Master Plan (ITMP)",
+  "country": "Canada",
+  "organisation": "Town of Whitby",
+  "deadline": "2026-11-12",
+  "industry": [
+   "ITS"
+  ],
+  "link": "https://whitby.bidsandtenders.ca/Module/Tenders/en/Tender/Detail/674bd6fb-c0a9-49b5-8ccf-6752c6b71da6/#Document"
+ },
+ {
+  "id": "9356bdf1-f9e4-4f37-b608-c7f74d2dafa0",
+  "title": "RFP fleet telematics system",
+  "country": "Canada",
+  "organisation": "The University of Waterloo",
+  "deadline": "2026-11-13",
+  "industry": [
+   "Fleet Management"
+  ],
+  "link": "https://uwaterloo.bonfirehub.ca/opportunities/112583"
+ },
+ {
+  "id": "ad582c01-465b-4999-ab4d-4c50f0fa55b7",
+  "title": "Integrated Transportation Asset Management Solution",
+  "country": "Canada",
+  "organisation": "Ministry of Transportation",
+  "deadline": "2026-12-14",
+  "industry": [
+   "Fleet Management",
+   "ITS"
+  ],
+  "link": "https://www.merx.com/public/supplier/solicitations/notice/444223713877/abstract?origin=0"
  }
 ]
