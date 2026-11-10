@@ -12,17 +12,6 @@
   "link": "https://oakville.bidsandtenders.ca/Module/Tenders/en/Tender/Detail/ea4a65ac-2e07-4836-a039-3e4531677c52"
  },
  {
-  "id": "41fbefde-75c1-4785-8f05-bb3f875307ab",
-  "title": "Procurement of Goods, Including Installation, for the Modernization of a Dynamic Intersection Control System",
-  "country": "Türkiye",
-  "organisation": "SMART CITY AND CITY INFORMATION SYSTEMS DIRECTORATE",
-  "deadline": "2026-09-09",
-  "industry": [
-   "Traffic Management"
-  ],
-  "link": "https://ekapv2.kik.gov.tr/ekap/search/2026_1493432"
- },
- {
   "id": "b57dda9d-d8db-4e08-ae14-41f2c4752d57",
   "title": "TransLink RFI: Spatial Intelligence for Transit Stations",
   "country": "Canada",
@@ -32,6 +21,17 @@
    "Smart City Systems"
   ],
   "link": "https://www.canada.ca/en/public-services-procurement/services/acquisitions/better-buying/simplifying-procurement-process/artificial-intelligence-source-list.html"
+ },
+ {
+  "id": "41fbefde-75c1-4785-8f05-bb3f875307ab",
+  "title": "Procurement of Goods, Including Installation, for the Modernization of a Dynamic Intersection Control System",
+  "country": "Türkiye",
+  "organisation": "SMART CITY AND CITY INFORMATION SYSTEMS DIRECTORATE",
+  "deadline": "2026-09-09",
+  "industry": [
+   "Traffic Management"
+  ],
+  "link": "https://ekapv2.kik.gov.tr/ekap/search/2026_1493432"
  },
  {
   "id": "a5b7d4ad-93ea-493e-a7a9-018173d50402",
@@ -156,6 +156,17 @@
    "Fleet Management"
   ],
   "link": "https://uwaterloo.bonfirehub.ca/opportunities/112583"
+ },
+ {
+  "id": "2d8690b7-fb9b-4080-a688-e9bea94558f0",
+  "title": "Supply and Delivery of Portable Variable Message Signs (PVMS)",
+  "country": "Canada",
+  "organisation": "The Ministry of Transportation West Region",
+  "deadline": "2026-11-20",
+  "industry": [
+   "Traffic Signs"
+  ],
+  "link": "https://ontariotenders.app.jaggaer.com/esop/toolkit/opportunity/current/list.si?reset=true&resetstored=true&userAct=changeLangIndex&language=en_CA&_ncp=1794298681916.15962-1"
  },
  {
   "id": "ad582c01-465b-4999-ab4d-4c50f0fa55b7",
