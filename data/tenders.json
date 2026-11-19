@@ -202,6 +202,18 @@
   "link": "https://www.merx.com/public/supplier/solicitations/notice/22785018740/abstract?origin=0"
  },
  {
+  "id": "ad582c01-465b-4999-ab4d-4c50f0fa55b7",
+  "title": "Integrated Transportation Asset Management Solution",
+  "country": "Canada",
+  "organisation": "Ministry of Transportation",
+  "deadline": "2026-12-14",
+  "industry": [
+   "Fleet Management",
+   "ITS"
+  ],
+  "link": "https://www.merx.com/public/supplier/solicitations/notice/444223713877/abstract?origin=0"
+ },
+ {
   "id": "46737080-3ed3-4f68-92b7-a8c43f3936a8",
   "title": "Data Product Subscription – Mobile/Location Data",
   "country": "Canada",
@@ -213,15 +225,14 @@
   "link": "https://ontariotenders.app.jaggaer.com/esop/guest/go/public/opportunity/current?locale=en_CA&opportunityId=120518"
  },
  {
-  "id": "ad582c01-465b-4999-ab4d-4c50f0fa55b7",
-  "title": "Integrated Transportation Asset Management Solution",
+  "id": "adbcb3c1-6af8-4b6e-bbc7-a1a08ecd8fd8",
+  "title": "Request for Information: Mobile Driver's Licence (mDL) ",
   "country": "Canada",
-  "organisation": "Ministry of Transportation",
-  "deadline": "2026-12-14",
+  "organisation": "The Ministry of Transportation",
+  "deadline": "2026-12-17",
   "industry": [
-   "Fleet Management",
-   "ITS"
+   "Data & Software"
   ],
-  "link": "https://www.merx.com/public/supplier/solicitations/notice/444223713877/abstract?origin=0"
+  "link": "https://ontariotenders.app.jaggaer.com/esop/guest/go/public/opportunity/current?locale=en_CA&opportunityId=120492"
  }
 ]
