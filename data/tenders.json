@@ -169,6 +169,30 @@
   "link": "https://ontariotenders.app.jaggaer.com/esop/toolkit/opportunity/current/list.si?reset=true&resetstored=true&userAct=changeLangIndex&language=en_CA&_ncp=1794298681916.15962-1"
  },
  {
+  "id": "7981cc53-6620-477f-871d-c2630d2f9c1c",
+  "title": "Supply and Installation of New Traffic Signal LED Vehicle and Pedestrian Modules",
+  "country": "Canada",
+  "organisation": "City of Brampton",
+  "deadline": "2026-11-26",
+  "industry": [
+   "Sensors",
+   "Traffic Signals",
+   "Traffic Signs"
+  ],
+  "link": "https://brampton.bidsandtenders.ca/Module/Tenders/en/Tender/Detail/4587237a-dabe-4048-b009-0224d807a452"
+ },
+ {
+  "id": "8ef7b7ac-7fcd-410c-b8e2-ac7f682e280b",
+  "title": "Economic Analysis of Connected and Automated Vehicles",
+  "country": "Canada",
+  "organisation": "Transport Canada",
+  "deadline": "2026-11-27",
+  "industry": [
+   "Autonomous Vehicles"
+  ],
+  "link": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-2-86700256"
+ },
+ {
   "id": "ad582c01-465b-4999-ab4d-4c50f0fa55b7",
   "title": "Integrated Transportation Asset Management Solution",
   "country": "Canada",
@@ -179,5 +203,25 @@
    "ITS"
   ],
   "link": "https://www.merx.com/public/supplier/solicitations/notice/444223713877/abstract?origin=0"
+ },
+ {
+  "id": "46737080-3ed3-4f68-92b7-a8c43f3936a8",
+  "title": "Data Product Subscription – Mobile/Location Data",
+  "country": "Canada",
+  "organisation": "The Ministry of Public and Business Services Delivery and Procurement",
+  "deadline": "2026-12-14",
+  "industry": [
+   "Data & Software"
+  ],
+  "link": "https://ontariotenders.app.jaggaer.com/esop/toolkit/opportunity/current/list.si?reset=true&resetstored=true&userAct=changeLangIndex&language=en_CA&_ncp=1794912133894.70183-1"
+ },
+ {
+  "id": "d38ea4af-e46d-41dd-8b43-37182a2a671b",
+  "title": "Mobile Ground Control Station (MGCS) and Cargo Trailer for Drone Field Operations",
+  "country": "Canada",
+  "organisation": "The National Research Council of Canada",
+  "deadline": "2026-12-14",
+  "industry": null,
+  "link": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-2-86700256"
  }
 ]
