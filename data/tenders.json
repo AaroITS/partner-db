@@ -78,17 +78,6 @@
   "link": "https://www.merx.com/public/solicitations/4080756255/abstract?origin=0"
  },
  {
-  "id": "3b001615-36a1-45e3-aa9e-01f87895e92b",
-  "title": "Invitation to Qualify to Canadian Government’s Artificial Intelligence Source List",
-  "country": "Canada",
-  "organisation": "Public Services and Procurement Canada",
-  "deadline": "2026-09-30",
-  "industry": [
-   "AI"
-  ],
-  "link": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ws4286933967-doc4822970058"
- },
- {
   "id": "00a6bae1-10e6-4a6b-8200-7f7ff6ad2711",
   "title": "Request for Proposals for Red Light Camera System Supply & Maintenance Services ",
   "country": "Canada",
@@ -99,6 +88,17 @@
    "Enforcement Systems"
   ],
   "link": "www.toronto.ca/business-economy/doing-business-with-the-city/searching-bidding-on-city-contracts/toronto-bids-portal/#all/d004f6eb-b219-4555-b7e1-02c1e7cbf9a5"
+ },
+ {
+  "id": "3b001615-36a1-45e3-aa9e-01f87895e92b",
+  "title": "Invitation to Qualify to Canadian Government’s Artificial Intelligence Source List",
+  "country": "Canada",
+  "organisation": "Public Services and Procurement Canada",
+  "deadline": "2026-09-30",
+  "industry": [
+   "AI"
+  ],
+  "link": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/ws4286933967-doc4822970058"
  },
  {
   "id": "6f9d485a-ce9d-4408-a84c-a4759c9d92b3",
@@ -193,16 +193,13 @@
   "link": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-2-86700256"
  },
  {
-  "id": "ad582c01-465b-4999-ab4d-4c50f0fa55b7",
-  "title": "Integrated Transportation Asset Management Solution",
+  "id": "d38ea4af-e46d-41dd-8b43-37182a2a671b",
+  "title": "Mobile Ground Control Station (MGCS) and Cargo Trailer for Drone Field Operations",
   "country": "Canada",
-  "organisation": "Ministry of Transportation",
-  "deadline": "2026-12-14",
-  "industry": [
-   "Fleet Management",
-   "ITS"
-  ],
-  "link": "https://www.merx.com/public/supplier/solicitations/notice/444223713877/abstract?origin=0"
+  "organisation": "The National Research Council of Canada",
+  "deadline": "2026-12-08",
+  "industry": null,
+  "link": "https://www.merx.com/public/supplier/solicitations/notice/22785018740/abstract?origin=0"
  },
  {
   "id": "46737080-3ed3-4f68-92b7-a8c43f3936a8",
@@ -213,15 +210,18 @@
   "industry": [
    "Data & Software"
   ],
-  "link": "https://ontariotenders.app.jaggaer.com/esop/toolkit/opportunity/current/list.si?reset=true&resetstored=true&userAct=changeLangIndex&language=en_CA&_ncp=1794912133894.70183-1"
+  "link": "https://ontariotenders.app.jaggaer.com/esop/guest/go/public/opportunity/current?locale=en_CA&opportunityId=120518"
  },
  {
-  "id": "d38ea4af-e46d-41dd-8b43-37182a2a671b",
-  "title": "Mobile Ground Control Station (MGCS) and Cargo Trailer for Drone Field Operations",
+  "id": "ad582c01-465b-4999-ab4d-4c50f0fa55b7",
+  "title": "Integrated Transportation Asset Management Solution",
   "country": "Canada",
-  "organisation": "The National Research Council of Canada",
+  "organisation": "Ministry of Transportation",
   "deadline": "2026-12-14",
-  "industry": null,
-  "link": "https://canadabuys.canada.ca/en/tender-opportunities/tender-notice/cb-2-86700256"
+  "industry": [
+   "Fleet Management",
+   "ITS"
+  ],
+  "link": "https://www.merx.com/public/supplier/solicitations/notice/444223713877/abstract?origin=0"
  }
 ]
